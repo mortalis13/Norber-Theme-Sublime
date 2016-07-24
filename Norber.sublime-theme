@@ -242,23 +242,48 @@
     // Tab dropdown
     {
         "class": "show_tabs_dropdown_button",
-        "content_margin": 12,
-        "layer0.texture": "Norber Theme/assets/common/tab-scroll-dropdown@2x.png",
-        "layer0.tint": [250,250,250],
+        
+        // "content_margin": 12,
+        // "layer0.texture": "Norber Theme/assets/common/tab-scroll-dropdown@2x.png",
+        // "layer0.tint": [250,250,250],
+        
+        "content_margin": 25,
+        "layer0.texture": "",
         "layer0.opacity": 1.0,
+        "layer0.tint": [25,25,25],
+        "layer0.inner_margin": 0,
+        
+        "layer1.texture": "Norber Theme/assets/common/tab-scroll-dropdown_1.png",
+        "layer1.inner_margin": [5,0,-5,0],
+        "layer1.tint": [255,255,255],
+        "layer1.opacity": 1.0
     },
     {
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
-        "layer0.tint": [214,73,55],
+        // "layer0.tint": [214,73,55],
+        "layer1.inner_margin": [5,0,-5,0],
+        "layer1.tint": [214,73,55],
+        "layer1.opacity": 1.0
     },
     // Tab scroll left
     {
+        // "class": "scroll_tabs_left_button",
+        // "content_margin": 12,
+        // "layer0.texture": "Norber Theme/assets/common/tab-scroll-left@2x.png",
+        // "layer0.tint": [250,250,250],
+        // "layer0.opacity": 1.0
+        
         "class": "scroll_tabs_left_button",
-        "content_margin": 12,
-        "layer0.texture": "Norber Theme/assets/common/tab-scroll-left@2x.png",
-        "layer0.tint": [250,250,250],
-        "layer0.opacity": 1.0
+        "content_margin": [14, 25, 14, 25],
+        "layer0.texture": "",
+        "layer0.tint": [25,25,25],
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": 0,
+        "layer1.texture": "Norber Theme/assets/common/tab-scroll-left_1.png",
+        "layer1.inner_margin": [0,0,0,0],
+        "layer1.tint": [255,255,255],
+        "layer1.opacity": 1.0
     },
     {
         "class": "scroll_tabs_left_button",
@@ -267,11 +292,22 @@
     },
     // Tab scroll right
     {
+        // "class": "scroll_tabs_right_button",
+        // "content_margin": 12,
+        // "layer0.texture": "Norber Theme/assets/common/tab-scroll-right@2x.png",
+        // "layer0.tint": [250,250,250],
+        // "layer0.opacity": 1.0
+        
         "class": "scroll_tabs_right_button",
-        "content_margin": 12,
-        "layer0.texture": "Norber Theme/assets/common/tab-scroll-right@2x.png",
-        "layer0.tint": [250,250,250],
-        "layer0.opacity": 1.0
+        "content_margin": [14, 25, 14, 25],
+        "layer0.texture": "",
+        "layer0.tint": [25,25,25],
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": 0,
+        "layer1.texture": "Norber Theme/assets/common/tab-scroll-right_1.png",
+        "layer1.inner_margin": [0,0,0,0],
+        "layer1.tint": [255,255,255],
+        "layer1.opacity": 1.0
     },
     {
         "class": "scroll_tabs_right_button",
