@@ -14,3 +14,18 @@ Changes:
 The Theme with Monokai color scheme:
 
 ![Screenshot](images/norber_theme_1.png)
+
+
+# Install
+
+  - Download the Package
+  - Unzip the files and rename the folder to **Norber Theme**
+  - Find your **Packages** directory using the menu item `Preferences -> Browse Packages...`
+  - Copy the folder into your Sublime Text **Packages** directory.
+  - Click on `Preferences -> Settings - User` and add the next line:
+  
+  ```
+  "theme": "Norber.sublime-theme"
+  ```
+
+
