@@ -1,7 +1,7 @@
 
 # Norber Theme
 
-A Theme for [Sublime Text](http://sublimetext.com) editor.
+A Theme for [Sublime Text](http://sublimetext.com) editor.  
 Source themes: [Numix Theme](https://github.com/nauzethc/sublime-text-numix), [Material Theme](https://github.com/equinusocio/material-theme).
 
 Changes:
