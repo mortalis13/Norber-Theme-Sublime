@@ -71,11 +71,12 @@
         "hit_test_level": 0.1
     },
     
-    {
-        "class": "tab_control",
-        "settings": ["show_tab_close_buttons"],
-        "content_margin": [0, 0]
-    },
+    // {
+    //     "class": "tab_control",
+    //     "settings": ["show_tab_close_buttons"],
+    //     "content_margin": [8, 0]
+    // },
+    
     // Tab hover state
     {
         "class": "tab_control",
@@ -112,7 +113,7 @@
     // Tab dirty state (close button hidden)
     {
         "class": "tab_control",
-        "settings": ["!show_tab_close_buttons"],
+        "settings": ["!show_tab_close_buttons"], 
         "attributes": ["dirty"],
         
         "layer1.opacity": 0.0,
@@ -198,7 +199,6 @@
 //
 // TAB LABELS
 //
-
     {
         "class": "tab_label",
         "fade": true,
@@ -235,10 +235,10 @@
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
     },
 
+
 //
 // TAB SCROLLING
 //
-
     // Tab dropdown
     {
         "class": "show_tabs_dropdown_button",
@@ -554,7 +554,7 @@
         "indent": 12,
         "indent_offset": 0,
         "indent_top_level": false,
-        "layer0.tint": [45,45,45],
+        "layer0.tint": [40,40,40],
         "layer0.opacity": 1,
         "dark_content": true
     },
