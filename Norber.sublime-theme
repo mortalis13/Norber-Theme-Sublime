@@ -204,6 +204,7 @@
         "fade": true,
         "fg": [190,190,190],
         "font.size": 12,
+        "font.face": "Verdana",
         "shadow_offset": 0,
     },
     {
@@ -635,14 +636,18 @@
     {
         "class": "sidebar_label",
         "color": [222,222,222],
-        "font.size": 11 
+        "font.size": 12,
+        // "font.face": "Courier New"
+        // "font.face": "Consolas",
+        "font.face": "Verdana",
+        "font.bold": false
     },
     // Sidebar folder entry
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable"]}],
         "color": [222,222,222],
-        "font.bold": true
+        // "font.bold": true
     },
     {
         "class": "sidebar_label",
