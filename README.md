@@ -35,3 +35,9 @@ The Theme with **Monokai** color scheme:
   "show_tab_close_buttons": false,
   "enable_tab_scrolling": false,
   ```
+
+# Changelog
+
+## 1.0.1
+
+- changed fonts for sidebar items and tab labels to **Verdana** for better view
