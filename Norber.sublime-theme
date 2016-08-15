@@ -587,8 +587,8 @@
     // Sidebar tree
     {
         "class": "sidebar_tree",
-        "row_padding": [20, 8],
-        "indent": 12,
+        "row_padding": [10, 8],
+        "indent": 18,
         "indent_offset": 0,
         "indent_top_level": false,
         "layer0.tint": [40,40,40],
@@ -606,18 +606,21 @@
         "class": "tree_row",
         "attributes": ["hover"],
         "layer0.tint": [70,70,70]
+        // "layer0.tint": [214,73,55]
     },
     // Sidebar row selected
     {
         "class": "tree_row",
         "attributes": ["selected"],
-        "layer0.tint": [214,73,55]
+        "layer0.tint": [90,90,90]
+        // "layer0.tint": [214,73,55]
     },
     // Sidebar row hover selected
     {
         "class": "tree_row",
         "attributes": ["hover", "selected"],
-        "layer0.tint": [220,80,62]
+        "layer0.tint": [100,100,100]
+        // "layer0.tint": [220,80,62]
     },
     // Sidebar heading
     {
