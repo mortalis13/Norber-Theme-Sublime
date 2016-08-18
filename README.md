@@ -55,3 +55,4 @@ The Theme with **Monokai** color scheme:
 
 - changed fonts for sidebar items and tab labels to **Verdana** for better view
 - changed sidebar selected row color
+- added custom color scheme based on Monokai
