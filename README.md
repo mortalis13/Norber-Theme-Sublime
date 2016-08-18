@@ -27,7 +27,8 @@ The Theme with **Monokai** color scheme:
   - Click on `Preferences -> Settings - User` and add the next line:
   
   ```
-  "theme": "Norber.sublime-theme"
+  "theme": "Norber.sublime-theme",
+  "color_scheme": "Packages/Norber Theme/NorberMonokai.tmTheme",
   ```
 
 # Additional Sublime Settings
@@ -36,6 +37,16 @@ The Theme with **Monokai** color scheme:
   "always_show_minimap_viewport" : true,
   "show_tab_close_buttons": false,
   "enable_tab_scrolling": false,
+
+  "line_padding_bottom": 1,
+  "line_padding_top": 1,
+  "margin": 0,
+  "highlight_line": true,
+
+  "font_size": 11,
+  "font_options": [
+    "subpixel_antialias"
+  ],
   ```
 
 # Changelog
@@ -43,3 +54,4 @@ The Theme with **Monokai** color scheme:
 ## 1.0.1
 
 - changed fonts for sidebar items and tab labels to **Verdana** for better view
+- changed sidebar selected row color

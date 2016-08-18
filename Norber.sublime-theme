@@ -612,7 +612,7 @@
     {
         "class": "tree_row",
         "attributes": ["selected"],
-        "layer0.tint": [90,90,90]
+        "layer0.tint": [80,80,80]
         // "layer0.tint": [214,73,55]
     },
     // Sidebar row hover selected
