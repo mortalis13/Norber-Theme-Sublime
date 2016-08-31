@@ -1,7 +1,7 @@
 
 # Norber Theme
 
-Version 1.0.1
+Version 1.0.2
 
 A Theme for [Sublime Text](http://sublimetext.com) editor.  
 Source themes: [Numix Theme](https://github.com/nauzethc/sublime-text-numix), [Material Theme](https://github.com/equinusocio/material-theme).
@@ -56,3 +56,9 @@ The Theme with **Monokai** color scheme:
 - changed fonts for sidebar items and tab labels to **Verdana** for better view
 - changed sidebar selected row color
 - added custom color scheme based on Monokai
+
+
+## 1.0.2
+
+- changed style of text fields (search, console, quick panels) + dropdown button style
+- changed style of status bar (height, font, buttons highlight)

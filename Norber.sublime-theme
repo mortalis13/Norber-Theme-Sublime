@@ -269,12 +269,6 @@
     },
     // Tab scroll left
     {
-        // "class": "scroll_tabs_left_button",
-        // "content_margin": 12,
-        // "layer0.texture": "Norber Theme/assets/common/tab-scroll-left@2x.png",
-        // "layer0.tint": [250,250,250],
-        // "layer0.opacity": 1.0
-        
         "class": "scroll_tabs_left_button",
         "content_margin": [14, 25, 14, 25],
         "layer0.texture": "",
@@ -293,12 +287,6 @@
     },
     // Tab scroll right
     {
-        // "class": "scroll_tabs_right_button",
-        // "content_margin": 12,
-        // "layer0.texture": "Norber Theme/assets/common/tab-scroll-right@2x.png",
-        // "layer0.tint": [250,250,250],
-        // "layer0.opacity": 1.0
-        
         "class": "scroll_tabs_right_button",
         "content_margin": [14, 25, 14, 25],
         "layer0.texture": "",
@@ -529,48 +517,33 @@
 
 
 //
-// DROPDOWN BUTTON
-//
-    {
-      "class": "dropdown_button_control",
-      "content_margin": [10, 8],
-      
-      "layer0.texture": "Norber Theme/assets/custom/overflow_menu.png",
-      "layer0.opacity": 1.0,
-      "layer0.inner_margin": [0, 0],
-      
-      "layer1.texture": "Norber Theme/assets/common/overflow_menu--hover.png",
-      "layer1.opacity": 0.0,
-      "layer1.inner_margin": [0, 0],
-    },
-    {
-      "class": "dropdown_button_control",
-      "attributes": ["hover"],
-      "layer1.opacity": 1.0
-    },
-    
-    
-//
 // STATUS BAR
 //
     // Status bar container
     {
         "class": "status_bar",
-        "layer0.tint": [49,49,49],
+        "layer0.tint": [55, 55, 55],
         "layer0.opacity": 1,
-        "content_margin": [10, 6]
+        "layer0.inner_margin": [2, 2],
+        "content_margin": [10, 6],
     },
     // Status bar button
     {
         "class": "status_button",
-        "min_size": [100, 0]
+        "min_size": [80, 0]
     },
     // Status bar label
     {
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
         "color": [222,222,222],
-        "font.size": 11
+        "font.size": 11,
+        "font.face": "Verdana",
+    },
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_button", "attributes": ["hover"]}],
+        "color": [219, 101, 90]
     },
 
 
@@ -606,21 +579,18 @@
         "class": "tree_row",
         "attributes": ["hover"],
         "layer0.tint": [70,70,70]
-        // "layer0.tint": [214,73,55]
     },
     // Sidebar row selected
     {
         "class": "tree_row",
         "attributes": ["selected"],
         "layer0.tint": [80,80,80]
-        // "layer0.tint": [214,73,55]
     },
     // Sidebar row hover selected
     {
         "class": "tree_row",
         "attributes": ["hover", "selected"],
         "layer0.tint": [100,100,100]
-        // "layer0.tint": [220,80,62]
     },
     // Sidebar heading
     {
@@ -640,8 +610,6 @@
         "class": "sidebar_label",
         "color": [222,222,222],
         "font.size": 12,
-        // "font.face": "Courier New"
-        // "font.face": "Consolas",
         "font.face": "Verdana",
         "font.bold": false
     },
@@ -650,7 +618,6 @@
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable"]}],
         "color": [222,222,222],
-        // "font.bold": true
     },
     {
         "class": "sidebar_label",
@@ -891,9 +858,23 @@
     {
         "class": "text_line_control",
         "layer0.texture": "Norber Theme/assets/common/text-field-dark.png",
-        "layer0.opacity": 1,
-        "layer0.inner_margin": 1,
-        "content_margin": [5,6]
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": [4, 3, 4, 3],
+        "content_margin": [4, 3, 3, 6]
+    },
+    
+    // Text input dropdown
+    {
+        "class": "dropdown_button_control",
+        "content_margin": [8, 8],
+        "layer0.texture": "Norber Theme/assets/common/text-field-list.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": [1, 1]
+    },
+    {
+        "class": "dropdown_button_control",
+        "attributes": ["hover"],
+        "layer0.texture": "Norber Theme/assets/common/text-field-list-hover.png"
     },
 
 
@@ -906,7 +887,7 @@
         "layer0.inner_margin": [2,2,2,2],
         "layer0.opacity": 1,
         "layer0.tint": [45,45,45],
-        "content_margin": [0, 0, 0, 0]
+        "content_margin": [2, 2, 4, 2]
     },
     // Quick panel background
     {
@@ -923,7 +904,7 @@
 //
     {
         "class": "quick_panel",
-        "row_padding": 8,
+        "row_padding": [8, 8],
         "dark_content": true
     },
     {
