@@ -1,5 +1,32 @@
 [
-  
+
+//
+// EMPTY WINDOW BACKGROUND
+//
+    {
+        "class": "sheet_container_control",
+        "layer0.tint": [85,85,85],
+        "layer0.opacity": 1
+    },
+
+//
+// GRID LAYOUT
+//
+    {
+        "class": "grid_layout_control",
+        "border_size": 1,
+        "border_color": [72,72,72]
+    },
+
+//
+// MINI MAP
+//
+    {
+        "class": "minimap_control",
+        "viewport_color": [214,73,55,90]
+    },
+
+
 //
 // TABS (REGULAR)
 //
@@ -8,7 +35,7 @@
         "class": "tabset_control",
         "layer0.tint": [90, 90, 90],
         "layer0.opacity": 1.0,
-        
+
         "content_margin": [0,0,0,0],
         "tab_overlap": 0,
         "tab_width": 70,
@@ -16,7 +43,7 @@
         "tab_height": 50,
         "mouse_wheel_switch": false
     },
-    
+
     {
         "class": "tabset_control",
         "settings": ["mouse_wheel_switches_tabs"],
@@ -41,20 +68,20 @@
     // Tab element
     {
         "class": "tab_control",
-        
+
         // General background
         "layer0.texture": "Norber Theme/assets/custom/tabs/bg.png",
         "layer0.inner_margin": [0, 0],
         "layer0.opacity": 1.0,
         "layer0.tint": [90, 90, 90],
-        
+
         // Inactive tabs
         "layer1.texture": "Norber Theme/assets/custom/tabs/mask.png",
         "layer1.inner_margin": [4, 4],
         "layer1.tint": [40,40,40],
         "layer1.opacity": 1.0, 
         "layer1.draw_center": true,
-        
+
 
         // Selected tab and hover
         "layer2.texture": "Norber Theme/assets/custom/tabs/mask.png",
@@ -65,18 +92,12 @@
         "layer3.texture": "Norber Theme/assets/custom/tabs/active-line.png",
         "layer3.inner_margin": [4, 4],
         "layer3.opacity": 0.0,
-        
+
         "content_margin": [15,10],
         "max_margin_trim": 1,
         "hit_test_level": 0.1
     },
-    
-    // {
-    //     "class": "tab_control",
-    //     "settings": ["show_tab_close_buttons"],
-    //     "content_margin": [8, 0]
-    // },
-    
+
     // Tab hover state
     {
         "class": "tab_control",
@@ -85,7 +106,7 @@
         "layer2.opacity": 1.0,
         "layer2.tint": [20,20,20]
     },
-    
+
     // Tab active state
     {
         "class": "tab_control",
@@ -93,11 +114,11 @@
         "layer1.opacity": 0.0,
         "layer2.opacity": 1.0,
         "layer3.opacity": 1.0,
-        
+
         "layer2.tint": [65,65,65], 
         "layer3.tint": [214,73,55], 
     },
-    
+
     // Tab active hover state
     {
         "class": "tab_control",
@@ -105,35 +126,35 @@
         "layer1.opacity": 0.0,
         "layer2.opacity": 1.0,
         "layer3.opacity": 1.0,
-        
+
         "layer2.tint": [70,70,70], 
         "layer3.tint": [214,73,55],
     },
-    
+
     // Tab dirty state (close button hidden)
     {
         "class": "tab_control",
         "settings": ["!show_tab_close_buttons"], 
         "attributes": ["dirty"],
-        
+
         "layer1.opacity": 0.0,
         "layer2.opacity": 1.0,
         "layer3.opacity": 1.0,
-        
+
         "layer2.tint": [40,40,40],
         "layer3.tint": [180,180,180], 
         // "content_margin": [12,3,7,3]
     }, 
-    
+
     {
         "class": "tab_control",
         "settings": ["!show_tab_close_buttons"],
         "attributes": ["selected", "dirty"],
-        
+
         "layer1.opacity": 0.0,
         "layer2.opacity": 1.0,
         "layer3.opacity": 1.0,
-        
+
         "layer2.tint": [65,65,65],
         "layer3.tint": [140,140,140], 
         // "content_margin": [12,3,7,3]
@@ -155,7 +176,7 @@
         "settings": ["show_tab_close_buttons"],
         "content_margin": [8,8]
     },
-    
+
     // Tab dirty button
     {
         "class": "tab_close_button",
@@ -164,7 +185,7 @@
         "layer0.tint": [214,73,55],
         "layer0.opacity": 1
     },
-    
+
     {
         "class": "tab_close_button",
         "settings": ["!show_tab_close_buttons"],
@@ -172,7 +193,7 @@
         // "content_margin": [8,8],
         // "layer0.opacity": 1
     },
-    
+
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["dirty","hover"]}],
@@ -229,7 +250,7 @@
         "attributes": ["transient"],
         "font.italic": true
     },
-    
+
     // Dirty tab labels (selected, dark)
     {
         "class": "tab_label",
@@ -243,17 +264,17 @@
     // Tab dropdown
     {
         "class": "show_tabs_dropdown_button",
-        
+
         // "content_margin": 12,
         // "layer0.texture": "Norber Theme/assets/common/tab-scroll-dropdown@2x.png",
         // "layer0.tint": [250,250,250],
-        
+
         "content_margin": 25,
         "layer0.texture": "",
         "layer0.opacity": 1.0,
         "layer0.tint": [25,25,25],
         "layer0.inner_margin": 0,
-        
+
         "layer1.texture": "Norber Theme/assets/common/tab-scroll-dropdown_1.png",
         "layer1.inner_margin": [5,0,-5,0],
         "layer1.tint": [255,255,255],
@@ -446,35 +467,6 @@
 
 
 //
-// EMPTY WINDOW BACKGROUND
-//
-    {
-        "class": "sheet_container_control",
-        "layer0.tint": [85,85,85],
-        "layer0.opacity": 1
-    },
-
-
-//
-// GRID LAYOUT
-//
-    {
-        "class": "grid_layout_control",
-        "border_size": 1,
-        "border_color": [72,72,72]
-    },
-
-
-//
-// MINI MAP
-//
-    {
-        "class": "minimap_control",
-        "viewport_color": [214,73,55,90]
-    },
-
-
-//
 // LABELS
 //
     // General labels
@@ -513,37 +505,6 @@
     {
         "class": "tool_tip_label_control",
         "color": [85,85,85]
-    },
-
-
-//
-// STATUS BAR
-//
-    // Status bar container
-    {
-        "class": "status_bar",
-        "layer0.tint": [55, 55, 55],
-        "layer0.opacity": 1,
-        "layer0.inner_margin": [2, 2],
-        "content_margin": [10, 6],
-    },
-    // Status bar button
-    {
-        "class": "status_button",
-        "min_size": [80, 0]
-    },
-    // Status bar label
-    {
-        "class": "label_control",
-        "parents": [{"class": "status_bar"}],
-        "color": [222,222,222],
-        "font.size": 11,
-        "font.face": "Verdana",
-    },
-    {
-        "class": "label_control",
-        "parents": [{"class": "status_button", "attributes": ["hover"]}],
-        "color": [219, 101, 90]
     },
 
 
@@ -731,7 +692,7 @@
         "layer3.texture": "Norber Theme/assets/common/folder_opened--hover.png",
         "layer3.opacity": 0.0,
     },
-    
+
     {
       "class": "icon_folder",
       "parents":
@@ -742,7 +703,7 @@
       "layer2.opacity": 0.0,
       "layer3.opacity": 1.0,
     },
-    
+
     {
       "class": "icon_folder",
       "parents":
@@ -753,7 +714,7 @@
       "layer2.opacity": 1.0,
       "layer3.opacity": 0.0,
     },
-    
+
     {
       "class": "icon_folder",
       "parents":
@@ -764,7 +725,7 @@
       "layer2.opacity": 0.0,
       "layer3.opacity": 1.0,
     },
-    
+
     {
         "class": "icon_folder_loading",
         "content_margin": [0,0]
@@ -849,8 +810,8 @@
         "attributes": ["pressed"],
         "layer0.tint": [42,42,42]
     },
-    
-    
+
+
 //
 // TEXT INPUT FIELD
 //
@@ -862,7 +823,7 @@
         "layer0.inner_margin": [4, 3, 4, 3],
         "content_margin": [4, 3, 3, 6]
     },
-    
+
     // Text input dropdown
     {
         "class": "dropdown_button_control",
@@ -964,7 +925,6 @@
 //
     {
         "class": "popup_control",
-        // "content_margin": [13,13],
         "content_margin": 1,
         "layer0.tint": [51,51,51],
         "layer0.opacity": 1,
@@ -1270,5 +1230,37 @@
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control","attributes": ["hover","selected"]}],
         "layer0.tint": [242,242,242]
-    }
+    },
+
+
+//
+// STATUS BAR
+//
+    // Status bar container
+    {
+        "class": "status_bar",
+        "layer0.tint": [55, 55, 55],
+        "layer0.opacity": 1,
+        "layer0.inner_margin": [2, 2],
+        "content_margin": [10, 6],
+    },
+    // Status bar button
+    {
+        "class": "status_button",
+        "min_size": [80, 0]
+    },
+    // Status bar label
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "color": [222,222,222],
+        "font.size": 11,
+        "font.face": "Verdana",
+    },
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_button", "attributes": ["hover"]}],
+        "color": [219, 101, 90]
+    },
+
 ]
