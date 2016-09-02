@@ -79,9 +79,8 @@
         "layer1.texture": "Norber Theme/assets/custom/tabs/mask.png",
         "layer1.inner_margin": [4, 4],
         "layer1.tint": [40,40,40],
-        "layer1.opacity": 1.0, 
+        "layer1.opacity": 1.0,
         "layer1.draw_center": true,
-
 
         // Selected tab and hover
         "layer2.texture": "Norber Theme/assets/custom/tabs/mask.png",
@@ -115,8 +114,8 @@
         "layer2.opacity": 1.0,
         "layer3.opacity": 1.0,
 
-        "layer2.tint": [65,65,65], 
-        "layer3.tint": [214,73,55], 
+        "layer2.tint": [65,65,65],
+        "layer3.tint": [214,73,55],
     },
 
     // Tab active hover state
@@ -127,14 +126,14 @@
         "layer2.opacity": 1.0,
         "layer3.opacity": 1.0,
 
-        "layer2.tint": [70,70,70], 
+        "layer2.tint": [70,70,70],
         "layer3.tint": [214,73,55],
     },
 
     // Tab dirty state (close button hidden)
     {
         "class": "tab_control",
-        "settings": ["!show_tab_close_buttons"], 
+        "settings": ["!show_tab_close_buttons"],
         "attributes": ["dirty"],
 
         "layer1.opacity": 0.0,
@@ -142,9 +141,8 @@
         "layer3.opacity": 1.0,
 
         "layer2.tint": [40,40,40],
-        "layer3.tint": [180,180,180], 
-        // "content_margin": [12,3,7,3]
-    }, 
+        "layer3.tint": [180,180,180],
+    },
 
     {
         "class": "tab_control",
@@ -156,9 +154,8 @@
         "layer3.opacity": 1.0,
 
         "layer2.tint": [65,65,65],
-        "layer3.tint": [140,140,140], 
-        // "content_margin": [12,3,7,3]
-    }, 
+        "layer3.tint": [180,180,180],
+    },
 
 
 //
@@ -190,8 +187,6 @@
         "class": "tab_close_button",
         "settings": ["!show_tab_close_buttons"],
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
-        // "content_margin": [8,8],
-        // "layer0.opacity": 1
     },
 
     {
@@ -199,7 +194,7 @@
         "parents": [{"class": "tab_control","attributes": ["dirty","hover"]}],
         "layer0.texture": "Norber Theme/assets/common/close.png",
         "layer0.opacity": 1,
-        "layer0.tint": [214,73,55] 
+        "layer0.tint": [214,73,55]
     },
     // Tab close button hover
     {
@@ -242,19 +237,12 @@
     },
     {
         "class": "tab_label",
-        "settings": ["numix_font_face"],
-        "font.face": "Ubuntu"
+        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
     },
     {
         "class": "tab_label",
         "attributes": ["transient"],
         "font.italic": true
-    },
-
-    // Dirty tab labels (selected, dark)
-    {
-        "class": "tab_label",
-        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
     },
 
 
@@ -264,10 +252,6 @@
     // Tab dropdown
     {
         "class": "show_tabs_dropdown_button",
-
-        // "content_margin": 12,
-        // "layer0.texture": "Norber Theme/assets/common/tab-scroll-dropdown@2x.png",
-        // "layer0.tint": [250,250,250],
 
         "content_margin": 25,
         "layer0.texture": "",
@@ -283,7 +267,6 @@
     {
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
-        // "layer0.tint": [214,73,55],
         "layer1.inner_margin": [5,0,-5,0],
         "layer1.tint": [214,73,55],
         "layer1.opacity": 1.0
@@ -694,36 +677,27 @@
     },
 
     {
-      "class": "icon_folder",
-      "parents":
-      [
-        { "class": "tree_row", "attributes": ["expanded"] }
-      ],
-      "layer1.opacity": 0.0,
-      "layer2.opacity": 0.0,
-      "layer3.opacity": 1.0,
+        "class": "icon_folder",
+        "parents": [{"class":"tree_row", "attributes":["expanded"]}],
+        "layer1.opacity": 0.0,
+        "layer2.opacity": 0.0,
+        "layer3.opacity": 1.0,
     },
 
     {
-      "class": "icon_folder",
-      "parents":
-      [
-        { "class": "tree_row", "attributes": ["hover"] }
-      ],
-      "layer1.opacity": 0.0,
-      "layer2.opacity": 1.0,
-      "layer3.opacity": 0.0,
+        "class": "icon_folder",
+        "parents": [{"class":"tree_row", "attributes":["hover"]}],
+        "layer1.opacity": 0.0,
+        "layer2.opacity": 1.0,
+        "layer3.opacity": 0.0,
     },
 
     {
-      "class": "icon_folder",
-      "parents":
-      [
-        { "class": "tree_row", "attributes": ["expanded", "hover"] }
-      ],
-      "layer1.opacity": 0.0,
-      "layer2.opacity": 0.0,
-      "layer3.opacity": 1.0,
+        "class": "icon_folder",
+        "parents": [{"class":"tree_row", "attributes":["expanded","hover"]}],
+        "layer1.opacity": 0.0,
+        "layer2.opacity": 0.0,
+        "layer3.opacity": 1.0,
     },
 
     {
@@ -736,7 +710,6 @@
         "class": "disclosure_button_control",
         "content_margin": 8,
         "layer0.texture": "Norber Theme/assets/common/fold-closed.png",
-        // "layer0.opacity": 1,
         "layer0.tint": [153,153,153]
     },
     {
@@ -764,25 +737,6 @@
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}]
-    },
-    // Sidebar folder closed
-    {
-        "class": "disclosure_button_control",
-        "settings": ["numix_folder_icons"],
-        "layer1.texture": "Norber Theme/assets/common/folder-closed.png",
-        "layer1.opacity": 1,
-        "layer0.opacity": 0,
-        "content_margin": [9,8,9,8]
-    },
-    // Sidebar folder open
-    {
-        "class": "disclosure_button_control",
-        "settings": ["numix_folder_icons"],
-        "attributes": ["expanded"],
-        "layer1.texture": "Norber Theme/assets/common/folder-open.png",
-        "layer1.opacity": 1,
-        "layer0.opacity": 0,
-        "content_margin": [9,8,9,8]
     },
 
 
