@@ -127,7 +127,7 @@
         "layer3.opacity": 1.0,
 
         "layer2.tint": [70,70,70],
-        "layer3.tint": [214,73,55],
+        "layer3.tint": [197, 90, 78],
     },
 
     // Tab dirty state (close button hidden)
@@ -338,7 +338,7 @@
     // Standard vertical scroll bar
     {
         "class": "scroll_bar_control",
-        "layer0.tint":[49,49,49],
+        "layer0.tint":[50,50,50],
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
         "blur": true
@@ -347,7 +347,7 @@
     {
         "class": "scroll_bar_control",
         "attributes": ["horizontal"],
-        "layer0.tint":[49,49,49],
+        "layer0.tint":[50,50,50],
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
         "blur": true
@@ -807,10 +807,9 @@
     // Quick panel background
     {
         "class": "overlay_control",
-        "layer0.tint": [153,153,153],
-        "layer0.inner_margin": 0,
+        "layer0.tint": [65,65,65],
         "layer0.opacity": 1,
-        "content_margin": 1
+        "content_margin": [6, 8, 6, 8]
     },
 
 
@@ -824,38 +823,56 @@
     },
     {
         "class": "quick_panel_row",
-        "layer0.tint": [85,85,85],
+        "layer0.tint": [50,50,50],
         "layer0.inner_margin": 0,
         "layer0.opacity": 1
     },
     {
         "class": "quick_panel_row",
         "attributes": ["hover"],
-        "layer0.tint": [214,73,55]
+        // "layer0.tint": [214,73,55]
+        "layer0.tint": [197, 90, 78]
     },
     {
         "class": "quick_panel_row",
         "attributes": ["selected"],
-        "layer0.tint": [214,73,55]
+        // "layer0.tint": [214,73,55]
+        "layer0.tint": [197, 90, 78]
     },
     {
         "class": "quick_panel_label",
-        "fg": [255,255,255],
-        "match_fg": [255,255,255],
-        "selected_fg": [255,255,255],
-        "selected_match_fg": [255,255,255]
+        "fg": [230,230,230],
+        "match_fg": [230,230,230],
+        "selected_fg": [230,230,230],
+        "selected_match_fg": [230,230,230]
     },
     {
         "class": "quick_panel_path_label",
-        "fg": [255,255,255],
-        "match_fg": [255,255,255],
-        "selected_fg": [255,255,255],
-        "selected_match_fg": [255,255,255]
+        "fg": [210,210,210],
+        "match_fg": [210,210,210],
+        "selected_fg": [210,210,210],
+        "selected_match_fg": [210,210,210]
     },
     {
         "class": "quick_panel_score_label",
+        "fg": [230,230,230],
+        "selected_fg": [230,230,230]
+    },
+    
+    {
+        "class": "quick_panel_label",
+        "parents": [{"class": "quick_panel_row", "attributes": ["hover"]}],
         "fg": [255,255,255],
-        "selected_fg": [255,255,255]
+    },
+    {
+        "class": "quick_panel_path_label",
+        "parents": [{"class": "quick_panel_row", "attributes": ["hover"]}],
+        "fg": [255,255,255],
+    },
+    {
+        "class": "quick_panel_score_label",
+        "parents": [{"class": "quick_panel_row", "attributes": ["hover"]}],
+        "fg": [255,255,255],
     },
 
 
@@ -870,7 +887,8 @@
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
-        "layer0.tint": [214,73,55]
+        // "layer0.tint": [214,73,55]
+        "layer0.tint": [197, 90, 78]
     },
 
 
@@ -903,7 +921,8 @@
     {
         "class": "table_row",
         "attributes": ["selected"],
-        "layer0.tint":[214,73,55],
+        // "layer0.tint":[214,73,55],
+        "layer0.tint":[197, 90, 78],
         "layer0.opacity": 1
     },
 
