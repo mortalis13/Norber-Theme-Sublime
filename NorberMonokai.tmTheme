@@ -321,7 +321,6 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <!-- <string>#CFCFC2</string> -->
         <string>#84d367</string>
       </dict>
     </dict>
@@ -389,6 +388,224 @@
         <string>#E6DB74</string>
       </dict>
     </dict>
+    <dict>
+      <key>scope</key>
+      <string>message.error</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#f05a5a</string>
+      </dict>
+    </dict>
+    
+    <!-- Markdown/up Definitions -->
+    <dict>
+      <key>name</key>
+      <string>Markdown plain</string>
+      <key>scope</key>
+      <string>text.html.markdown</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#F8F8F2</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Markup raw inline</string>
+      <key>scope</key>
+      <string>text.html.markdown markup.raw.inline</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#f05a5a</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Markdown heading</string>
+      <key>scope</key>
+      <string>markdown.heading, markup.heading | markup.heading entity.name, markup.heading.markdown punctuation.definition.heading.markdown</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string></string>
+        <key>foreground</key>
+        <string>#f09646</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Markup italic</string>
+      <key>scope</key>
+      <string>markup.italic</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>italic</string>
+        <key>foreground</key>
+        <string>#ed558d</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Markup bold</string>
+      <key>scope</key>
+      <string>markup.bold</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+        <key>foreground</key>
+        <string>#ed558d</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Markup underline</string>
+      <key>scope</key>
+      <string>markup.underline</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>underline</string>
+        <key>foreground</key>
+        <string>#beec62</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Markdown Blockquote</string>
+      <key>scope</key>
+      <string>markup.quote, punctuation.definition.blockquote.markdown</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>italic</string>
+        <key>foreground</key>
+        <string>#74d7e8</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Markup Quote</string>
+      <key>scope</key>
+      <string>markup.quote</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string> italic</string>
+        <key>foreground</key>
+        <string>#74d7e8</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Markdown Link</string>
+      <key>scope</key>
+      <string>string.other.link.title.markdown</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>underline</string>
+        <key>foreground</key>
+        <string>#74d7e8</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Markdown List Items Punctuation</string>
+      <key>scope</key>
+      <string>punctuation.definition.list_item.markdown</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#F8F8F2</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Markdown Raw Block fenced</string>
+      <key>scope</key>
+      <string>markup.raw.block.fenced.markdown</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#242424</string>
+        <key>foreground</key>
+        <string>#F8F8F2</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Markup Raw block</string>
+      <key>scope</key>
+      <string>markup.raw.block</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#a481e9</string>
+      </dict>
+    </dict>
+
+    <!-- GitGutter Definitions -->
+    <dict>
+      <key>name</key>
+      <string>GitGutter deleted</string>
+      <key>scope</key>
+      <string>markup.deleted.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ed558d</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>GitGutter inserted</string>
+      <key>scope</key>
+      <string>markup.inserted.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#beec62</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>GitGutter changed</string>
+      <key>scope</key>
+      <string>markup.changed.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#d4c574</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>GitGutter ignored</string>
+      <key>scope</key>
+      <string>markup.ignored.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#696963</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>GitGutter untracked</string>
+      <key>scope</key>
+      <string>markup.untracked.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#696963</string>
+      </dict>
+    </dict>
+    
+    
 
   </array>
   <key>uuid</key>
