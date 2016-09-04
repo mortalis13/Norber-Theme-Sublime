@@ -11,8 +11,13 @@
       <dict>
         <key>background</key>
         <string>#22231d</string>
+        
         <key>caret</key>
-        <string>#F8F8F0</string>
+        <string>#ff9544</string>
+        <!-- <string>#fa6a3e</string> -->
+        <!-- <string>#51dbdf</string> -->
+        <!-- <string>#F8F8F0</string> -->
+        
         <key>foreground</key>
         <string>#F8F8F2</string>
         <key>invisibles</key>
@@ -50,7 +55,7 @@
         <!-- <string>squiggly_underline</string> -->
         <string>underline</string>
         <key>tagsForeground</key>
-        <string>#FFFF33</string>
+        <string>#f4f463</string>
       </dict>
     </dict>
     <dict>
@@ -605,10 +610,8 @@
       </dict>
     </dict>
     
-    
-
   </array>
   <key>uuid</key>
-  <string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
+  <string>27455352-4fad-4f86-910e-4755cb79216c</string>
 </dict>
 </plist>

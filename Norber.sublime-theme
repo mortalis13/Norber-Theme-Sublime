@@ -775,7 +775,13 @@
         "layer0.texture": "Norber Theme/assets/common/text-field-dark.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [4, 3, 4, 3],
-        "content_margin": [4, 3, 3, 6]
+        "content_margin": [4, 4, 3, 5]
+    },
+    {
+        "class": "text_line_control",
+        "attributes": ["hover"],
+        // "layer0.texture": "Norber Theme/assets/common/text-field-dark-hover.png",
+        "layer0.texture": "Norber Theme/assets/common/text-field-dark-hover-1.png",
     },
 
     // Text input dropdown
@@ -883,6 +889,11 @@
         "class": "mini_quick_panel_row",
         "layer0.tint": [85,85,85],
         "layer0.opacity": 1
+    },
+    {
+        "class": "mini_quick_panel_row",
+        "attributes": ["hover"],
+        "layer0.tint": [61,61,61]
     },
     {
         "class": "mini_quick_panel_row",
@@ -1220,7 +1231,13 @@
     // Status bar button
     {
         "class": "status_button",
-        "min_size": [80, 0]
+        "min_size": [50, 0],
+        
+        "layer0.tint": [236, 98, 55],
+        "layer0.inner_margin": [2, 0, 0, 0],
+        "layer0.opacity": 1.0,
+        "layer0.draw_center": false,
+        "content_margin": [15, 0, 15, 0],
     },
     // Status bar label
     {
@@ -1233,7 +1250,7 @@
     {
         "class": "label_control",
         "parents": [{"class": "status_button", "attributes": ["hover"]}],
-        "color": [219, 101, 90]
+        "color": [219, 101, 90],
     },
 
 ]
