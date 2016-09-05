@@ -1,4 +1,45 @@
 [
+  
+// ================ Contents ================
+  
+    // EMPTY WINDOW BACKGROUND
+    // GRID LAYOUT
+    // MINI MAP
+
+    // TABS (REGULAR)
+    // TAB BUTTONS
+    // TAB LABELS
+    // TAB SCROLLING
+
+    // FOLD BUTTONS
+    // STANDARD SCROLLBARS
+    // OVERLAY SCROLLBARS
+    // LABELS
+    // TOOLTIP
+
+    // SIDEBAR
+    // SIDEBAR - OPEN FILE ICONS
+    // SIDEBAR - GENERAL FILE ICONS
+
+    // STANDARD TEXT BUTTONS
+    // TEXT INPUT FIELD
+
+    // PANEL BACKGROUNDS
+    // QUICK PANEL (Goto Anything)
+    // MINI QUICK PANEL (Control Panel)
+    // CODE COMPLETION DROPDOWN
+
+    // BOTTOM PANEL BUTTONS
+    // BOTTOM PANEL ICONS - GROUP 1
+    // BOTTOM PANEL ICONS - GROUP 1 (Find in Files)
+    // BOTTOM PANEL ICONS - GROUP 2
+    // BOTTOM PANEL ICONS - GROUP 3
+    // BOTTOM PANEL ICONS - GROUP 4
+
+    // STATUS BAR
+
+// ==========================================
+
 
 //
 // EMPTY WINDOW BACKGROUND
@@ -820,7 +861,7 @@
 
 
 //
-// QUICK PANEL
+// QUICK PANEL (Goto Anything)
 //
     {
         "class": "quick_panel",
@@ -854,10 +895,10 @@
     },
     {
         "class": "quick_panel_path_label",
-        "fg": [210,210,210],
-        "match_fg": [210,210,210],
-        "selected_fg": [210,210,210],
-        "selected_match_fg": [210,210,210]
+        "fg": [151, 213, 212],
+        "match_fg": [151, 213, 212],
+        "selected_fg": [151, 213, 212],
+        "selected_match_fg": [151, 213, 212]
     },
     {
         "class": "quick_panel_score_label",
@@ -869,21 +910,56 @@
         "class": "quick_panel_label",
         "parents": [{"class": "quick_panel_row", "attributes": ["hover"]}],
         "fg": [255,255,255],
+        "match_fg": [255,255,255],
+        "selected_fg": [255,255,255],
+        "selected_match_fg": [255,255,255],
     },
+    {
+        "class": "quick_panel_label",
+        "parents": [{"class": "quick_panel_row", "attributes": ["selected"]}],
+        "fg": [255,255,255],
+        "match_fg": [255,255,255],
+        "selected_fg": [255,255,255],
+        "selected_match_fg": [255,255,255],
+    },
+    
     {
         "class": "quick_panel_path_label",
         "parents": [{"class": "quick_panel_row", "attributes": ["hover"]}],
         "fg": [255,255,255],
+        "match_fg": [255,255,255],
+        "selected_fg": [255,255,255],
+        "selected_match_fg": [255,255,255],
     },
+    {
+        "class": "quick_panel_path_label",
+        "parents": [{"class": "quick_panel_row", "attributes": ["selected"]}],
+        "fg": [255,255,255],
+        "match_fg": [255,255,255],
+        "selected_fg": [255,255,255],
+        "selected_match_fg": [255,255,255],
+    },
+    
     {
         "class": "quick_panel_score_label",
         "parents": [{"class": "quick_panel_row", "attributes": ["hover"]}],
         "fg": [255,255,255],
+        "match_fg": [255,255,255],
+        "selected_fg": [255,255,255],
+        "selected_match_fg": [255,255,255],
+    },
+    {
+        "class": "quick_panel_score_label",
+        "parents": [{"class": "quick_panel_row", "attributes": ["selected"]}],
+        "fg": [255,255,255],
+        "match_fg": [255,255,255],
+        "selected_fg": [255,255,255],
+        "selected_match_fg": [255,255,255],
     },
 
 
 //
-// MINI QUICK PANEL
+// MINI QUICK PANEL (Control Panel)
 //
     {
         "class": "mini_quick_panel_row",
@@ -901,7 +977,41 @@
         // "layer0.tint": [214,73,55]
         "layer0.tint": [197, 90, 78]
     },
-
+    
+    {
+        "class": "quick_panel_label",
+        "parents": [{"class": "mini_quick_panel_row", "attributes": ["selected"]}],
+        "fg": [255,255,255],
+        "match_fg": [255,255,255],
+        "selected_fg": [255,255,255],
+        "selected_match_fg": [255,255,255],
+    },
+    {
+        "class": "quick_panel_label",
+        "parents": [{"class": "mini_quick_panel_row", "attributes": ["hover"]}],
+        "fg": [255,255,255],
+        "match_fg": [255,255,255],
+        "selected_fg": [255,255,255],
+        "selected_match_fg": [255,255,255],
+    },
+    
+    {
+        "class": "quick_panel_path_label",
+        "parents": [{"class": "mini_quick_panel_row"}],
+        "fg": [160, 239, 238],
+        "match_fg": [160, 239, 238],
+        "selected_fg": [160, 239, 238],
+        "selected_match_fg": [160, 239, 238],
+    },
+    {
+        "class": "quick_panel_path_label",
+        "parents": [{"class": "mini_quick_panel_row", "attributes": ["selected"]}],
+        "fg": [255, 255, 255],
+        "match_fg": [255, 255, 255],
+        "selected_fg": [255, 255, 255],
+        "selected_match_fg": [255, 255, 255],
+    },
+    
 
 //
 // CODE COMPLETION DROPDOWN
