@@ -61,4 +61,4 @@ The Theme with **Monokai** color scheme:
 ## 1.0.2
 
 - changed style of text fields (search, console, quick panels) + dropdown button style
-- changed style of status bar (height, font, buttons highlight)
+- changed style of status bar (height, font, buttons highlight, buttons separators)
