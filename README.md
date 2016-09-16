@@ -33,21 +33,21 @@ The Theme with **Monokai** color scheme:
 
 # Additional Sublime Settings
 
-  ```
-  "always_show_minimap_viewport" : true,
-  "show_tab_close_buttons": false,
-  "enable_tab_scrolling": false,
+```
+"always_show_minimap_viewport" : true,
+"show_tab_close_buttons": false,
+"enable_tab_scrolling": false,
 
-  "line_padding_bottom": 1,
-  "line_padding_top": 1,
-  "margin": 0,
-  "highlight_line": true,
+"line_padding_bottom": 1,
+"line_padding_top": 1,
+"margin": 0,
+"highlight_line": true,
 
-  "font_size": 11,
-  "font_options": [
-    "subpixel_antialias"
-  ],
-  ```
+"font_size": 11,
+"font_options": [
+  "subpixel_antialias"
+],
+```
 
 # Changelog
 
