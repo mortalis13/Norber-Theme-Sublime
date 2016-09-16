@@ -830,7 +830,7 @@
         "class": "text_line_control",
         "attributes": ["hover"],
         // "layer0.texture": "Norber Theme/assets/common/text-field-dark-hover.png",
-        "layer0.texture": "Norber Theme/assets/common/text-field-dark-hover-1.png",
+        // "layer0.texture": "Norber Theme/assets/common/text-field-dark-hover-1.png",
     },
 
     // Text input dropdown
