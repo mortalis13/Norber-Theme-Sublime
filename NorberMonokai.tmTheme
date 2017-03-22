@@ -13,7 +13,8 @@
         <string>#22231d</string>
         
         <key>caret</key>
-        <string>#ff9544</string>
+        <string>#f8f000</string>
+        <!-- <string>#ff9544</string> -->
         <!-- <string>#fa6a3e</string> -->
         <!-- <string>#51dbdf</string> -->
         <!-- <string>#F8F8F0</string> -->
@@ -36,6 +37,12 @@
         <string>#FFE792</string>
         <key>findHighlightForeground</key>
         <string>#000000</string>
+        
+        <!-- <key>findHighlight</key>
+        <string>#ea8b2a</string>
+        <key>findHighlightForeground</key>
+        <string>#000000</string> -->
+        
         <key>activeGuide</key>
         <string>#9D550FB0</string>
 
@@ -607,6 +614,182 @@
       <dict>
         <key>foreground</key>
         <string>#696963</string>
+      </dict>
+    </dict>
+    
+    <dict>
+      <key>name</key>
+      <string>Log4j Priority</string>
+      <key>scope</key>
+      <string>priority.log</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ff0000</string>
+      </dict>
+    </dict>
+    
+    <dict>
+      <key>name</key>
+      <string>Log4j Priority</string>
+      <key>scope</key>
+      <string>priority.trace.log</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+        <key>foreground</key>
+        <string>#bbbbbb</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Log4j Priority</string>
+      <key>scope</key>
+      <string>priority.debug.log</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+        <key>foreground</key>
+        <string>#6294ef</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Log4j Priority</string>
+      <key>scope</key>
+      <string>priority.info.log</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+        <key>foreground</key>
+        <string>#6cc6e1</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Log4j Priority</string>
+      <key>scope</key>
+      <string>priority.warn.log</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+        <key>foreground</key>
+        <string>#eacf34</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Log4j Priority</string>
+      <key>scope</key>
+      <string>priority.error.log</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+        <key>foreground</key>
+        <string>#e73d1f</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Log4j Priority</string>
+      <key>scope</key>
+      <string>priority.fatal.log</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+        <key>foreground</key>
+        <string>#eb7560</string>
+      </dict>
+    </dict>
+    
+    <dict>
+      <key>name</key>
+      <string>Log4j Priority</string>
+      <key>scope</key>
+      <string>priority.debug.log-full</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#90b4f6</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Log4j Priority</string>
+      <key>scope</key>
+      <string>priority.info.log-full</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#94e0f4</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Log4j Priority</string>
+      <key>scope</key>
+      <string>priority.warn.log-full</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#eacf34</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Log4j Priority</string>
+      <key>scope</key>
+      <string>priority.error.log-full</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+        <key>foreground</key>
+        <string>#e73d1f</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Log4j Priority</string>
+      <key>scope</key>
+      <string>priority.fatal.log-full</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+        <key>foreground</key>
+        <string>#eb7560</string>
+      </dict>
+    </dict>
+    
+    <dict>
+      <key>name</key>
+      <string>Log4j Priority</string>
+      <key>scope</key>
+      <string>type.exception.header.log</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+        <key>foreground</key>
+        <string>#f47b43</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Log4j Priority</string>
+      <key>scope</key>
+      <string>type.exception.stack.log</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#f3c781</string>
       </dict>
     </dict>
     
