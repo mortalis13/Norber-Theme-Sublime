@@ -1,7 +1,7 @@
 
 # Norber Theme
 
-**Version 1.0.3**
+**Version 1.0.4**
 
 A Theme for [Sublime Text](http://sublimetext.com) editor.  
 Source themes: [Numix Theme](https://github.com/nauzethc/sublime-text-numix), [Material Theme](https://github.com/equinusocio/material-theme).
@@ -47,6 +47,10 @@ The Theme with **Monokai** color scheme:
 "font_options": [
   "subpixel_antialias"
 ],
+// Windows
+"theme_font_options": [
+  "gdi"
+],
 ```
 
 # Changelog
@@ -68,3 +72,9 @@ The Theme with **Monokai** color scheme:
 
 - changed cursor color
 - added styles for Log4j (used for a log4j syntax highlight)
+
+## 1.0.4
+
+- added panel switcher icon in Status bar
+- changed colors for quick panel labels
+- fixed colors for Quick Switch Project dialog

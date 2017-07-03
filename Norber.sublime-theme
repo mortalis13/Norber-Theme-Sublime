@@ -46,7 +46,7 @@
 //
     {
         "class": "sheet_container_control",
-        "layer0.tint": [85,85,85],
+        "layer0.tint": [85, 85, 85],
         "layer0.opacity": 1
     },
 
@@ -56,7 +56,7 @@
     {
         "class": "grid_layout_control",
         "border_size": 1,
-        "border_color": [72,72,72]
+        "border_color": [72, 72, 72]
     },
 
 //
@@ -64,7 +64,7 @@
 //
     {
         "class": "minimap_control",
-        "viewport_color": [214,73,55,90]
+        "viewport_color": [214, 73, 55, 90]
     },
 
 
@@ -77,7 +77,7 @@
         "layer0.tint": [90, 90, 90],
         "layer0.opacity": 1.0,
 
-        "content_margin": [0,0,0,0],
+        "content_margin": [0, 0, 0, 0],
         "tab_overlap": 0,
         "tab_width": 70,
         "tab_min_width": 30,
@@ -119,7 +119,7 @@
         // Inactive tabs
         "layer1.texture": "Norber Theme/assets/custom/tabs/mask.png",
         "layer1.inner_margin": [4, 4],
-        "layer1.tint": [40,40,40],
+        "layer1.tint": [40, 40, 40],
         "layer1.opacity": 1.0,
         "layer1.draw_center": true,
 
@@ -133,7 +133,7 @@
         "layer3.inner_margin": [4, 4],
         "layer3.opacity": 0.0,
 
-        "content_margin": [15,10],
+        "content_margin": [15, 10],
         "max_margin_trim": 1,
         "hit_test_level": 0.1
     },
@@ -144,7 +144,7 @@
         "attributes": ["hover"],
         "layer1.opacity": 0.0,
         "layer2.opacity": 1.0,
-        "layer2.tint": [20,20,20]
+        "layer2.tint": [20, 20, 20]
     },
 
     // Tab active state
@@ -155,8 +155,8 @@
         "layer2.opacity": 1.0,
         "layer3.opacity": 1.0,
 
-        "layer2.tint": [65,65,65],
-        "layer3.tint": [214,73,55],
+        "layer2.tint": [65, 65, 65],
+        "layer3.tint": [214, 73, 55],
     },
 
     // Tab active hover state
@@ -167,7 +167,7 @@
         "layer2.opacity": 1.0,
         "layer3.opacity": 1.0,
 
-        "layer2.tint": [70,70,70],
+        "layer2.tint": [70, 70, 70],
         "layer3.tint": [197, 90, 78],
     },
 
@@ -181,8 +181,8 @@
         "layer2.opacity": 1.0,
         "layer3.opacity": 1.0,
 
-        "layer2.tint": [40,40,40],
-        "layer3.tint": [180,180,180],
+        "layer2.tint": [40, 40, 40],
+        "layer3.tint": [180, 180, 180],
     },
 
     {
@@ -194,8 +194,8 @@
         "layer2.opacity": 1.0,
         "layer3.opacity": 1.0,
 
-        "layer2.tint": [65,65,65],
-        "layer3.tint": [180,180,180],
+        "layer2.tint": [65, 65, 65],
+        "layer3.tint": [180, 180, 180],
     },
 
 
@@ -212,30 +212,30 @@
     {
         "class": "tab_close_button",
         "settings": ["show_tab_close_buttons"],
-        "content_margin": [8,8]
+        "content_margin": [8, 8]
     },
 
     // Tab dirty button
     {
         "class": "tab_close_button",
-        "parents": [{"class": "tab_control","attributes": ["dirty"]}],
+        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "layer0.texture": "Norber Theme/assets/common/circle.png",
-        "layer0.tint": [214,73,55],
+        "layer0.tint": [214, 73, 55],
         "layer0.opacity": 1
     },
 
     {
         "class": "tab_close_button",
         "settings": ["!show_tab_close_buttons"],
-        "parents": [{"class": "tab_control","attributes": ["dirty"]}],
+        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
     },
 
     {
         "class": "tab_close_button",
-        "parents": [{"class": "tab_control","attributes": ["dirty","hover"]}],
+        "parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
         "layer0.texture": "Norber Theme/assets/common/close.png",
         "layer0.opacity": 1,
-        "layer0.tint": [214,73,55]
+        "layer0.tint": [214, 73, 55]
     },
     // Tab close button hover
     {
@@ -259,21 +259,21 @@
     {
         "class": "tab_label",
         "fade": true,
-        "fg": [190,190,190],
+        "fg": [190, 190, 190],
         "font.size": 12,
         "font.face": "Verdana",
         "shadow_offset": 0,
     },
     {
         "class": "tab_label",
-        "parents": [{"class": "tab_control","attributes": ["selected"]}],
-        "fg": [242,242,242],
+        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "fg": [242, 242, 242],
         "shadow_offset": 0
     },
     {
         "class": "tab_label",
-        "parents": [{"class": "tab_control","attributes": ["hover"]}],
-        "fg": [242,242,242],
+        "parents": [{"class": "tab_control", "attributes": ["hover"]}],
+        "fg": [242, 242, 242],
         "shadow_offset": 0
     },
     {
@@ -297,19 +297,19 @@
         "content_margin": 25,
         "layer0.texture": "",
         "layer0.opacity": 1.0,
-        "layer0.tint": [25,25,25],
+        "layer0.tint": [25, 25, 25],
         "layer0.inner_margin": 0,
 
         "layer1.texture": "Norber Theme/assets/common/tab-scroll-dropdown_1.png",
-        "layer1.inner_margin": [5,0,-5,0],
-        "layer1.tint": [255,255,255],
+        "layer1.inner_margin": [5, 0, -5, 0],
+        "layer1.tint": [255, 255, 255],
         "layer1.opacity": 1.0
     },
     {
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
-        "layer1.inner_margin": [5,0,-5,0],
-        "layer1.tint": [214,73,55],
+        "layer1.inner_margin": [5, 0, -5, 0],
+        "layer1.tint": [214, 73, 55],
         "layer1.opacity": 1.0
     },
     // Tab scroll left
@@ -317,36 +317,36 @@
         "class": "scroll_tabs_left_button",
         "content_margin": [14, 25, 14, 25],
         "layer0.texture": "",
-        "layer0.tint": [25,25,25],
+        "layer0.tint": [25, 25, 25],
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
         "layer1.texture": "Norber Theme/assets/common/tab-scroll-left_1.png",
-        "layer1.inner_margin": [0,0,0,0],
-        "layer1.tint": [255,255,255],
+        "layer1.inner_margin": [0, 0, 0, 0],
+        "layer1.tint": [255, 255, 255],
         "layer1.opacity": 1.0
     },
     {
         "class": "scroll_tabs_left_button",
         "attributes": ["hover"],
-        "layer0.tint": [214,73,55]
+        "layer0.tint": [214, 73, 55]
     },
     // Tab scroll right
     {
         "class": "scroll_tabs_right_button",
         "content_margin": [14, 25, 14, 25],
         "layer0.texture": "",
-        "layer0.tint": [25,25,25],
+        "layer0.tint": [25, 25, 25],
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
         "layer1.texture": "Norber Theme/assets/common/tab-scroll-right_1.png",
-        "layer1.inner_margin": [0,0,0,0],
-        "layer1.tint": [255,255,255],
+        "layer1.inner_margin": [0, 0, 0, 0],
+        "layer1.tint": [255, 255, 255],
         "layer1.opacity": 1.0
     },
     {
         "class": "scroll_tabs_right_button",
         "attributes": ["hover"],
-        "layer0.tint": [214,73,55]
+        "layer0.tint": [214, 73, 55]
     },
 
 
@@ -357,9 +357,9 @@
         "class": "fold_button_control",
         "layer0.texture": "Norber Theme/assets/common/fold-closed.png",
         "layer0.opacity": 1,
-        "layer0.tint": [153,153,153],
+        "layer0.tint": [153, 153, 153],
         "layer0.inner_margin": 0,
-        "content_margin": [8,8]
+        "content_margin": [8, 8]
     },
     {
         "class": "fold_button_control",
@@ -369,7 +369,7 @@
     {
         "class": "fold_button_control",
         "attributes": ["hover"],
-        "layer0.tint": [214,73,55]
+        "layer0.tint": [214, 73, 55]
     },
 
 
@@ -379,7 +379,7 @@
     // Standard vertical scroll bar
     {
         "class": "scroll_bar_control",
-        "layer0.tint":[50,50,50],
+        "layer0.tint":[50, 50, 50],
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
         "blur": true
@@ -388,7 +388,7 @@
     {
         "class": "scroll_bar_control",
         "attributes": ["horizontal"],
-        "layer0.tint":[50,50,50],
+        "layer0.tint":[50, 50, 50],
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
         "blur": true
@@ -396,14 +396,14 @@
     // Standard scroll bar corner
     {
         "class": "scroll_corner_control",
-        "layer0.tint":[42,42,42],
+        "layer0.tint":[42, 42, 42],
         "layer0.inner_margin": 0,
         "layer0.opacity": 1
     },
     // Standard vertical scroll puck
     {
         "class": "puck_control",
-        "layer0.tint":[83,83,83],
+        "layer0.tint":[83, 83, 83],
         "layer0.opacity": 1,
         "content_margin": 6,
         "blur": true
@@ -411,7 +411,7 @@
     {
         "class": "puck_control",
         "attributes": ["hover"],
-        "layer0.tint":[99,99,99],
+        "layer0.tint":[99, 99, 99],
         "layer0.opacity": 1
     },
     // Standard horizontal scroll puck
@@ -419,8 +419,8 @@
         "class": "puck_control",
         "attributes": ["horizontal"],
         "layer0.texture": "",
-        "layer0.tint":[83,83,83],
-        "layer0.inner_margin": [0,0],
+        "layer0.tint":[83, 83, 83],
+        "layer0.inner_margin": [0, 0],
         "content_margin": 6,
         "blur": false
     },
@@ -444,8 +444,8 @@
     {
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
-        "layer0.tint":[85,85,85],
-        "layer0.inner_margin": [0,3],
+        "layer0.tint":[85, 85, 85],
+        "layer0.inner_margin": [0, 3],
         "blur": true
     },
     // Overlay horizontal scroll bar
@@ -453,14 +453,14 @@
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal"],
-        "layer0.inner_margin": [3,0],
+        "layer0.inner_margin": [3, 0],
         "blur": true
     },
     // Overlay vertical puck
     {
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
-        "layer0.tint": [214,73,55],
+        "layer0.tint": [214, 73, 55],
         "layer0.inner_margin": 3,
         "content_margin": 3,
         "blur": true
@@ -470,7 +470,7 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal"],
-        "layer0.tint": [214,73,55],
+        "layer0.tint": [214, 73, 55],
         "layer0.inner_margin": 3,
         "content_margin": 3,
         "blur": true
@@ -486,7 +486,7 @@
     {
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
-        "attributes": ["horizontal","dark"]
+        "attributes": ["horizontal", "dark"]
     },
 
 
@@ -496,20 +496,20 @@
     // General labels
     {
         "class": "label_control",
-        "color": [222,222,222]
+        "color": [222, 222, 222]
     },
     // Text field labels
     {
         "class": "label_control",
         "parents": [{"class": "panel_control"}],
-        "shadow_offset": [0,0]
+        "shadow_offset": [0, 0]
     },
     // Button labels
     {
         "class": "label_control",
         "parents": [{"class": "button_control"}],
-        "shadow_color": [55,55,55],
-        "shadow_offset": [0,0]
+        "shadow_color": [55, 55, 55],
+        "shadow_offset": [0, 0]
     },
 
 
@@ -520,15 +520,15 @@
     {
         "class": "tool_tip_control",
         "layer0.texture": "",
-        "layer0.tint": [240,240,240],
-        "layer0.inner_margin": [1,1],
+        "layer0.tint": [240, 240, 240],
+        "layer0.inner_margin": [1, 1],
         "layer0.opacity": 1,
-        "content_margin": [5,5]
+        "content_margin": [5, 5]
     },
     // Tooltip content
     {
         "class": "tool_tip_label_control",
-        "color": [85,85,85]
+        "color": [85, 85, 85]
     },
 
 
@@ -539,7 +539,7 @@
     {
         "class": "sidebar_container",
         "layer0.opacity": 1,
-        "layer0.tint": [72,72,72],
+        "layer0.tint": [72, 72, 72],
         "content_margin": 1
     },
     // Sidebar tree
@@ -549,51 +549,51 @@
         "indent": 18,
         "indent_offset": 0,
         "indent_top_level": false,
-        "layer0.tint": [40,40,40],
+        "layer0.tint": [40, 40, 40],
         "layer0.opacity": 1,
         "dark_content": true
     },
     // Sidebar rows
     {
         "class": "tree_row",
-        "layer0.tint": [40,40,40],
+        "layer0.tint": [40, 40, 40],
         "layer0.opacity": 1,
     },
     // Sidebar row hover
     {
         "class": "tree_row",
         "attributes": ["hover"],
-        "layer0.tint": [70,70,70]
+        "layer0.tint": [70, 70, 70]
     },
     // Sidebar row selected
     {
         "class": "tree_row",
         "attributes": ["selected"],
-        "layer0.tint": [80,80,80]
+        "layer0.tint": [80, 80, 80]
     },
     // Sidebar row hover selected
     {
         "class": "tree_row",
         "attributes": ["hover", "selected"],
-        "layer0.tint": [100,100,100]
+        "layer0.tint": [100, 100, 100]
     },
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [193,193,193],
+        "color": [193, 193, 193],
         "font.bold": true,
         "font.size": 12,
-        "shadow_offset": [0,0]
+        "shadow_offset": [0, 0]
     },
     // Sidebar heading selected
     {
         "class": "sidebar_heading",
-        "parents": [{"class": "tree_row","attributes": ["selected"]}]
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}]
     },
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [222,222,222],
+        "color": [222, 222, 222],
         "font.size": 12,
         "font.face": "Verdana",
         "font.bold": false
@@ -602,35 +602,35 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "color": [250,250,250]
+        "color": [250, 250, 250]
     },
     {
         "class": "sidebar_label",
-        "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "color": [255,255,255]
-    },
-    
-    {
-        "class": "sidebar_label",
-        "parents": [{"class": "tree_row","attributes": ["expandable"]}],
-        "color": [222,222,222],
-    },
-    {
-        "class": "sidebar_label",
-        "parents": [{"class": "tree_row","attributes": ["expandable", "hover"]}],
-        "color": [250,250,250]
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "color": [255, 255, 255]
     },
     
     {
         "class": "sidebar_label",
-        "parents": [{"class": "tree_row","attributes": ["expanded"]}],
-        // "color": [222,222,222],
+        "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+        "color": [222, 222, 222],
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
+        "color": [250, 250, 250]
+    },
+    
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+        // "color": [222, 222, 222],
         "color": [133, 211, 210],
     },
     {
         "class": "sidebar_label",
-        "parents": [{"class": "tree_row","attributes": ["expanded", "hover"]}],
-        // "color": [222,222,222],
+        "parents": [{"class": "tree_row", "attributes": ["expanded", "hover"]}],
+        // "color": [222, 222, 222],
         "color": [133, 211, 210],
     },
     
@@ -651,26 +651,26 @@
         "layer0.texture": "Norber Theme/assets/common/close@2x.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
-        "layer0.tint": [150,150,150],
-        "content_margin": [8,8]
+        "layer0.tint": [150, 150, 150],
+        "content_margin": [8, 8]
     },
     {
         "class": "close_button",
-        "parents": [{"class": "tree_row","attributes": ["hover"]}],
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
         "layer0.opacity": 1,
-        "layer0.tint": [242,242,242]
+        "layer0.tint": [242, 242, 242]
     },
     {
         "class": "close_button",
-        "parents": [{"class": "tree_row","attributes": ["selected"]}],
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "layer0.opacity": 1,
-        "layer0.tint": [242,242,242]
+        "layer0.tint": [242, 242, 242]
     },
     {
         "class": "close_button",
-        "parents": [{"class": "tree_row","attributes": ["selected", "hover"]}],
+        "parents": [{"class": "tree_row", "attributes": ["selected", "hover"]}],
         "layer0.opacity": 1,
-        "layer0.tint": [85,85,85]
+        "layer0.tint": [85, 85, 85]
     },
     // Sidebar file dirty
     {
@@ -678,26 +678,26 @@
         "attributes": ["dirty"],
         "layer0.texture": "Norber Theme/assets/common/close@2x.png",
         "layer0.opacity": 1,
-        "layer0.tint": [214,73,55]
+        "layer0.tint": [214, 73, 55]
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "parents": [{"class": "tree_row","attributes": ["selected"]}],
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "layer0.texture": "Norber Theme/assets/common/circle@2x.png",
-        "layer0.tint": [242,242,242]
+        "layer0.tint": [242, 242, 242]
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "parents": [{"class": "tree_row","attributes": ["hover"]}],
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
         "layer0.texture": "Norber Theme/assets/common/close@2x.png",
         "layer0.opacity": 1,
-        "layer0.tint": [242,242,242]
+        "layer0.tint": [242, 242, 242]
     },
     {
         "class": "close_button",
-        "parents": [{"class": "tree_row","attributes": ["hover","selected"]}],
+        "parents": [{"class": "tree_row", "attributes": ["hover", "selected"]}],
         "layer0.texture": "Norber Theme/assets/common/close@2x.png",
         "layer0.opacity": 1
     },
@@ -710,11 +710,11 @@
     {
         "class": "icon_file_type",
         "layer0.opacity": 1.0,
-        "content_margin": [9,9]
+        "content_margin": [9, 9]
     },
     {
         "class": "icon_folder",
-        "content_margin": [10,8],
+        "content_margin": [10, 8],
         "layer0.tint": [38, 50, 56],
         "layer0.opacity": 0,
         "layer1.texture": "Norber Theme/assets/custom/folder.png",
@@ -727,7 +727,8 @@
 
     {
         "class": "icon_folder",
-        "parents": [{"class":"tree_row", "attributes":["expanded"]}],
+        "content_margin": [10, 8],
+        "parents": [{"class": "tree_row", "attributes":["expanded"]}],
         "layer1.opacity": 0.0,
         "layer2.opacity": 0.0,
         "layer3.opacity": 1.0,
@@ -735,7 +736,8 @@
 
     {
         "class": "icon_folder",
-        "parents": [{"class":"tree_row", "attributes":["hover"]}],
+        "content_margin": [10, 8],
+        "parents": [{"class": "tree_row", "attributes":["hover"]}],
         "layer1.opacity": 0.0,
         "layer2.opacity": 1.0,
         "layer3.opacity": 0.0,
@@ -743,7 +745,8 @@
 
     {
         "class": "icon_folder",
-        "parents": [{"class":"tree_row", "attributes":["expanded","hover"]}],
+        "content_margin": [10, 8],
+        "parents": [{"class": "tree_row", "attributes":["expanded", "hover"]}],
         "layer1.opacity": 0.0,
         "layer2.opacity": 0.0,
         "layer3.opacity": 1.0,
@@ -751,7 +754,7 @@
 
     {
         "class": "icon_folder_loading",
-        "content_margin": [0,0]
+        "content_margin": [0, 0]
     },
 
     // Sidebar group closed
@@ -759,17 +762,17 @@
         "class": "disclosure_button_control",
         "content_margin": 8,
         "layer0.texture": "Norber Theme/assets/common/fold-closed.png",
-        "layer0.tint": [153,153,153]
+        "layer0.tint": [153, 153, 153]
     },
     {
         "class": "disclosure_button_control",
-        "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.tint": [242,242,242]
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "layer0.tint": [242, 242, 242]
     },
     {
         "class": "disclosure_button_control",
-        "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.tint": [242,242,242]
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.tint": [242, 242, 242]
     },
     // Sidebar group open
     {
@@ -780,12 +783,12 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "parents": [{"class": "tree_row","attributes": ["hover"]}]
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}]
     },
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "parents": [{"class": "tree_row","attributes": ["selected"]}]
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}]
     },
 
 
@@ -795,23 +798,23 @@
     // Default button state
     {
         "class": "button_control",
-        "content_margin": [4,8,4,8],
-        "min_size": [60,0],
+        "content_margin": [4, 8, 4, 8],
+        "min_size": [60, 0],
         "layer0.opacity": 1,
-        "layer0.tint": [51,51,51],
-        "layer0.inner_margin": [8,8]
+        "layer0.tint": [51, 51, 51],
+        "layer0.inner_margin": [8, 8]
     },
     // Hover button state
     {
         "class": "button_control",
         "attributes": ["hover"],
-        "layer0.tint": [60,60,60]
+        "layer0.tint": [60, 60, 60]
     },
     // Pressed button state
     {
         "class": "button_control",
         "attributes": ["pressed"],
-        "layer0.tint": [42,42,42]
+        "layer0.tint": [42, 42, 42]
     },
 
 
@@ -854,19 +857,26 @@
     // Bottom panel background
     {
         "class": "panel_control",
-        "layer0.inner_margin": [2,2,2,2],
+        "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1,
-        "layer0.tint": [45,45,45],
+        "layer0.tint": [45, 45, 45],
         "content_margin": [2, 2, 4, 2]
+    },
+    {
+        "class": "panel_control",
+        "parents": [{"class": "switch_project_window"}],
+        "layer0.tint": [65, 65, 65],
+        "layer0.opacity": 1,
     },
     // Quick panel background
     {
         "class": "overlay_control",
-        "layer0.tint": [65,65,65],
+        "layer0.tint": [65, 65, 65],
         "layer0.opacity": 1,
-        "content_margin": [6, 8, 6, 8]
+        "content_margin": [6, 8, 6, 8],
+        "dark_content": false
     },
-
+    
 
 //
 // QUICK PANEL (Goto Anything)
@@ -874,95 +884,101 @@
     {
         "class": "quick_panel",
         "row_padding": [8, 8],
+        "layer0.tint": [85, 85, 85],
+        "layer0.opacity": 1.0,
         "dark_content": true
     },
     {
         "class": "quick_panel_row",
-        "layer0.tint": [50,50,50],
+        "layer0.tint": [85, 85, 85],
         "layer0.inner_margin": 0,
         "layer0.opacity": 1
     },
     {
         "class": "quick_panel_row",
         "attributes": ["hover"],
-        // "layer0.tint": [214,73,55]
-        "layer0.tint": [197, 90, 78]
+        "layer0.tint": [61, 61, 61]
     },
     {
         "class": "quick_panel_row",
         "attributes": ["selected"],
-        // "layer0.tint": [214,73,55]
         "layer0.tint": [197, 90, 78]
     },
+    
     {
         "class": "quick_panel_label",
-        "fg": [230,230,230],
-        "match_fg": [230,230,230],
-        "selected_fg": [230,230,230],
-        "selected_match_fg": [230,230,230]
+        "fg": [250, 250, 250],
+        "match_fg": [250, 250, 250],
+        "selected_fg": [250, 250, 250],
+        "selected_match_fg": [250, 250, 250]
     },
     {
         "class": "quick_panel_path_label",
-        "fg": [151, 213, 212],
-        "match_fg": [151, 213, 212],
-        "selected_fg": [151, 213, 212],
-        "selected_match_fg": [151, 213, 212]
+        "fg": [254, 226, 134],
+        "match_fg": [254, 226, 134],
+        "selected_fg": [254, 226, 134],
+        "selected_match_fg": [254, 226, 134]
+        
+        // "fg": [164, 231, 230],
+        // "match_fg": [164, 231, 230],
+        // "selected_fg": [164, 231, 230],
+        // "selected_match_fg": [164, 231, 230]
     },
     {
         "class": "quick_panel_score_label",
-        "fg": [230,230,230],
-        "selected_fg": [230,230,230]
+        "fg": [255, 255, 255],
+        "selected_fg": [255, 255, 255]
     },
     
     {
         "class": "quick_panel_label",
         "parents": [{"class": "quick_panel_row", "attributes": ["hover"]}],
-        "fg": [255,255,255],
-        "match_fg": [255,255,255],
-        "selected_fg": [255,255,255],
-        "selected_match_fg": [255,255,255],
+        "fg": [255, 255, 255],
+        "match_fg": [255, 255, 255],
+        "selected_fg": [255, 255, 255],
+        "selected_match_fg": [255, 255, 255],
     },
     {
         "class": "quick_panel_label",
         "parents": [{"class": "quick_panel_row", "attributes": ["selected"]}],
-        "fg": [255,255,255],
-        "match_fg": [255,255,255],
-        "selected_fg": [255,255,255],
-        "selected_match_fg": [255,255,255],
+        "fg": [255, 255, 255],
+        "match_fg": [255, 255, 255],
+        "selected_fg": [255, 255, 255],
+        "selected_match_fg": [255, 255, 255],
     },
     
     {
         "class": "quick_panel_path_label",
         "parents": [{"class": "quick_panel_row", "attributes": ["hover"]}],
-        "fg": [255,255,255],
-        "match_fg": [255,255,255],
-        "selected_fg": [255,255,255],
-        "selected_match_fg": [255,255,255],
+        "fg": [255, 255, 255],
+        "match_fg": [255, 255, 255],
+        "selected_fg": [255, 255, 255],
+        "selected_match_fg": [255, 255, 255],
     },
     {
         "class": "quick_panel_path_label",
         "parents": [{"class": "quick_panel_row", "attributes": ["selected"]}],
-        "fg": [255,255,255],
-        "match_fg": [255,255,255],
-        "selected_fg": [255,255,255],
-        "selected_match_fg": [255,255,255],
+        "fg": [255, 255, 255],
+        "match_fg": [255, 255, 255],
+        "selected_fg": [255, 255, 255],
+        "selected_match_fg": [255, 255, 255],
     },
     
     {
         "class": "quick_panel_score_label",
         "parents": [{"class": "quick_panel_row", "attributes": ["hover"]}],
-        "fg": [255,255,255],
-        "match_fg": [255,255,255],
-        "selected_fg": [255,255,255],
-        "selected_match_fg": [255,255,255],
+        "fg": [255, 255, 255],
+        "match_fg": [255, 255, 255],
+        "selected_fg": [255, 255, 255],
+        "selected_match_fg": [255, 255, 255],
     },
     {
         "class": "quick_panel_score_label",
         "parents": [{"class": "quick_panel_row", "attributes": ["selected"]}],
-        "fg": [255,255,255],
-        "match_fg": [255,255,255],
-        "selected_fg": [255,255,255],
-        "selected_match_fg": [255,255,255],
+        "fg": [255, 255, 255],
+        "match_fg": [255, 255, 255],
+        "selected_fg": [255, 255, 255],
+        "selected_match_fg": [255, 255, 255],
     },
 
 
@@ -971,45 +987,50 @@
 //
     {
         "class": "mini_quick_panel_row",
-        "layer0.tint": [85,85,85],
+        "layer0.tint": [85, 85, 85],
         "layer0.opacity": 1
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["hover"],
-        "layer0.tint": [61,61,61]
+        "layer0.tint": [61, 61, 61]
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
-        // "layer0.tint": [214,73,55]
+        // "layer0.tint": [214, 73, 55]
         "layer0.tint": [197, 90, 78]
     },
     
     {
         "class": "quick_panel_label",
         "parents": [{"class": "mini_quick_panel_row", "attributes": ["selected"]}],
-        "fg": [255,255,255],
-        "match_fg": [255,255,255],
-        "selected_fg": [255,255,255],
-        "selected_match_fg": [255,255,255],
+        "fg": [255, 255, 255],
+        "match_fg": [255, 255, 255],
+        "selected_fg": [255, 255, 255],
+        "selected_match_fg": [255, 255, 255],
     },
     {
         "class": "quick_panel_label",
         "parents": [{"class": "mini_quick_panel_row", "attributes": ["hover"]}],
-        "fg": [255,255,255],
-        "match_fg": [255,255,255],
-        "selected_fg": [255,255,255],
-        "selected_match_fg": [255,255,255],
+        "fg": [255, 255, 255],
+        "match_fg": [255, 255, 255],
+        "selected_fg": [255, 255, 255],
+        "selected_match_fg": [255, 255, 255],
     },
     
     {
         "class": "quick_panel_path_label",
         "parents": [{"class": "mini_quick_panel_row"}],
-        "fg": [160, 239, 238],
-        "match_fg": [160, 239, 238],
-        "selected_fg": [160, 239, 238],
-        "selected_match_fg": [160, 239, 238],
+        "fg": [254, 226, 134],
+        "match_fg": [254, 226, 134],
+        "selected_fg": [254, 226, 134],
+        "selected_match_fg": [254, 226, 134]
+        
+        // "fg": [164, 231, 230],
+        // "match_fg": [164, 231, 230],
+        // "selected_fg": [164, 231, 230],
+        // "selected_match_fg": [164, 231, 230],
     },
     {
         "class": "quick_panel_path_label",
@@ -1027,30 +1048,30 @@
     {
         "class": "popup_control",
         "content_margin": 1,
-        "layer0.tint": [51,51,51],
+        "layer0.tint": [51, 51, 51],
         "layer0.opacity": 1,
     },
     {
         "class": "auto_complete",
-        "row_padding": [5,5]
+        "row_padding": [5, 5]
     },
     {
         "class": "auto_complete_label",
-        "fg": [222,222,222],
-        "match_fg": [255,255,255],
-        "selected_fg": [255,255,255],
-        "selected_match_fg": [255,255,255]
+        "fg": [222, 222, 222],
+        "match_fg": [255, 255, 255],
+        "selected_fg": [255, 255, 255],
+        "selected_match_fg": [255, 255, 255]
     },
     {
         "class": "table_row",
-        "layer0.tint":[85,85,85],
+        "layer0.tint":[85, 85, 85],
         "layer0.opacity": 1,
-        "layer0.inner_margin": [5,5]
+        "layer0.inner_margin": [5, 5]
     },
     {
         "class": "table_row",
         "attributes": ["selected"],
-        // "layer0.tint":[214,73,55],
+        // "layer0.tint":[214, 73, 55],
         "layer0.tint":[197, 90, 78],
         "layer0.opacity": 1
     },
@@ -1063,20 +1084,20 @@
     {
         "class": "icon_button_control",
         "layer0.opacity": 1,
-        "layer0.tint":[51,51,51],
+        "layer0.tint":[51, 51, 51],
         "content_margin": 6
     },
     {
         "class": "icon_button_control",
         "attributes": ["hover"],
         "layer0.opacity": 1,
-        "layer0.tint": [51,51,51]
+        "layer0.tint": [51, 51, 51]
     },
     {
         "class": "icon_button_control",
         "attributes": ["selected"],
         "layer0.opacity": 1,
-        "layer0.tint": [42,42,42]
+        "layer0.tint": [42, 42, 42]
     },
 
 
@@ -1087,70 +1108,70 @@
     {
         "class": "icon_regex",
         "layer0.texture": "Norber Theme/assets/common/regex@2x.png",
-        "layer0.tint": [193,193,193],
+        "layer0.tint": [193, 193, 193],
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_regex",
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [214,73,55]
+        "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+        "layer0.tint": [214, 73, 55]
     },
     {
         "class": "icon_regex",
-        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [214,73,55]
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.tint": [214, 73, 55]
     },
     {
         "class": "icon_regex",
-        "parents": [{"class": "icon_button_control","attributes": ["hover","selected"]}],
-        "layer0.tint": [242,242,242]
+        "parents": [{"class": "icon_button_control", "attributes": ["hover", "selected"]}],
+        "layer0.tint": [242, 242, 242]
     },
     // Case sensitive search button
     {
         "class": "icon_case",
         "layer0.texture": "Norber Theme/assets/common/casesens@2x.png",
-        "layer0.tint": [193,193,193],
+        "layer0.tint": [193, 193, 193],
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_case",
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [214,73,55]
+        "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+        "layer0.tint": [214, 73, 55]
     },
     {
         "class": "icon_case",
-        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [214,73,55]
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.tint": [214, 73, 55]
     },
     {
         "class": "icon_case",
-        "parents": [{"class": "icon_button_control","attributes": ["hover","selected"]}],
-        "layer0.tint": [242,242,242]
+        "parents": [{"class": "icon_button_control", "attributes": ["hover", "selected"]}],
+        "layer0.tint": [242, 242, 242]
     },
     // Match whole word search button
     {
         "class": "icon_whole_word",
         "layer0.texture": "Norber Theme/assets/common/wholeword@2x.png",
-        "layer0.tint": [193,193,193],
+        "layer0.tint": [193, 193, 193],
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_whole_word",
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [214,73,55]
+        "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+        "layer0.tint": [214, 73, 55]
     },
     {
         "class": "icon_whole_word",
-        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [214,73,55]
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.tint": [214, 73, 55]
     },
     {
         "class": "icon_whole_word",
-        "parents": [{"class": "icon_button_control","attributes": ["hover","selected"]}],
-        "layer0.tint": [242,242,242]
+        "parents": [{"class": "icon_button_control", "attributes": ["hover", "selected"]}],
+        "layer0.tint": [242, 242, 242]
     },
 
 
@@ -1161,47 +1182,47 @@
     {
         "class": "icon_context",
         "layer0.texture": "Norber Theme/assets/common/context@2x.png",
-        "layer0.tint": [193,193,193],
+        "layer0.tint": [193, 193, 193],
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_context",
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [214,73,55]
+        "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+        "layer0.tint": [214, 73, 55]
     },
     {
         "class": "icon_context",
-        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [214,73,55]
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.tint": [214, 73, 55]
     },
     {
         "class": "icon_context",
-        "parents": [{"class": "icon_button_control","attributes": ["hover","selected"]}],
-        "layer0.tint": [242,242,242]
+        "parents": [{"class": "icon_button_control", "attributes": ["hover", "selected"]}],
+        "layer0.tint": [242, 242, 242]
     },
     // Use search buffer
     {
         "class": "icon_use_buffer",
         "layer0.texture": "Norber Theme/assets/common/buffer@2x.png",
-        "layer0.tint": [193,193,193],
+        "layer0.tint": [193, 193, 193],
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_use_buffer",
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [214,73,55]
+        "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+        "layer0.tint": [214, 73, 55]
     },
     {
         "class": "icon_use_buffer",
-        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [214,73,55]
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.tint": [214, 73, 55]
     },
     {
         "class": "icon_use_buffer",
-        "parents": [{"class": "icon_button_control","attributes": ["hover","selected"]}],
-        "layer0.tint": [242,242,242]
+        "parents": [{"class": "icon_button_control", "attributes": ["hover", "selected"]}],
+        "layer0.tint": [242, 242, 242]
     },
 
 
@@ -1212,70 +1233,70 @@
     {
         "class": "icon_reverse",
         "layer0.texture": "Norber Theme/assets/common/reverse@2x.png",
-        "layer0.tint": [193,193,193],
+        "layer0.tint": [193, 193, 193],
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_reverse",
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [214,73,55]
+        "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+        "layer0.tint": [214, 73, 55]
     },
     {
         "class": "icon_reverse",
-        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [214,73,55]
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.tint": [214, 73, 55]
     },
     {
         "class": "icon_reverse",
-        "parents": [{"class": "icon_button_control","attributes": ["hover","selected"]}],
-        "layer0.tint": [242,242,242]
+        "parents": [{"class": "icon_button_control", "attributes": ["hover", "selected"]}],
+        "layer0.tint": [242, 242, 242]
     },
     // Search wrap button
     {
         "class": "icon_wrap",
         "layer0.texture": "Norber Theme/assets/common/wrap@2x.png",
-        "layer0.tint": [193,193,193],
+        "layer0.tint": [193, 193, 193],
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_wrap",
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [214,73,55]
+        "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+        "layer0.tint": [214, 73, 55]
     },
     {
         "class": "icon_wrap",
-        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [214,73,55]
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.tint": [214, 73, 55]
     },
     {
         "class": "icon_wrap",
-        "parents": [{"class": "icon_button_control","attributes": ["hover","selected"]}],
-        "layer0.tint": [242,242,242]
+        "parents": [{"class": "icon_button_control", "attributes": ["hover", "selected"]}],
+        "layer0.tint": [242, 242, 242]
     },
     // Search in selection button
     {
         "class": "icon_in_selection",
         "layer0.texture": "Norber Theme/assets/common/selection@2x.png",
-        "layer0.tint": [193,193,193],
+        "layer0.tint": [193, 193, 193],
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_in_selection",
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [214,73,55]
+        "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+        "layer0.tint": [214, 73, 55]
     },
     {
         "class": "icon_in_selection",
-        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [214,73,55]
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.tint": [214, 73, 55]
     },
     {
         "class": "icon_in_selection",
-        "parents": [{"class": "icon_button_control","attributes": ["hover","selected"]}],
-        "layer0.tint": [242,242,242]
+        "parents": [{"class": "icon_button_control", "attributes": ["hover", "selected"]}],
+        "layer0.tint": [242, 242, 242]
     },
 
 
@@ -1286,24 +1307,24 @@
     {
         "class": "icon_preserve_case",
         "layer0.texture": "Norber Theme/assets/common/casesens@2x.png",
-        "layer0.tint": [193,193,193],
+        "layer0.tint": [193, 193, 193],
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_preserve_case",
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [214,73,55]
+        "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+        "layer0.tint": [214, 73, 55]
     },
     {
         "class": "icon_preserve_case",
-        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [214,73,55]
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.tint": [214, 73, 55]
     },
     {
         "class": "icon_preserve_case",
-        "parents": [{"class": "icon_button_control","attributes": ["hover","selected"]}],
-        "layer0.tint": [242,242,242]
+        "parents": [{"class": "icon_button_control", "attributes": ["hover", "selected"]}],
+        "layer0.tint": [242, 242, 242]
     },
 
 
@@ -1314,24 +1335,24 @@
     {
         "class": "icon_highlight",
         "layer0.texture": "Norber Theme/assets/common/highlight@2x.png",
-        "layer0.tint": [193,193,193],
+        "layer0.tint": [193, 193, 193],
         "layer0.opacity": 1,
         "content_margin": 8
     },
     {
         "class": "icon_highlight",
-        "parents": [{"class": "icon_button_control","attributes": ["hover"]}],
-        "layer0.tint": [214,73,55]
+        "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+        "layer0.tint": [214, 73, 55]
     },
     {
         "class": "icon_highlight",
-        "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.tint": [214,73,55]
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.tint": [214, 73, 55]
     },
     {
         "class": "icon_highlight",
-        "parents": [{"class": "icon_button_control","attributes": ["hover","selected"]}],
-        "layer0.tint": [242,242,242]
+        "parents": [{"class": "icon_button_control", "attributes": ["hover", "selected"]}],
+        "layer0.tint": [242, 242, 242]
     },
 
 
@@ -1344,7 +1365,7 @@
         "layer0.tint": [55, 55, 55],
         "layer0.opacity": 1,
         "layer0.inner_margin": [2, 2],
-        "content_margin": [10, 6],
+        "content_margin": [10, 4],
     },
     // Status bar button
     {
@@ -1361,14 +1382,29 @@
     {
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
-        "color": [222,222,222],
+        "color": [222, 222, 222],
         "font.size": 11,
         "font.face": "Verdana",
     },
     {
         "class": "label_control",
         "parents": [{"class": "status_button", "attributes": ["hover"]}],
-        "color": [219, 101, 90],
+        "color": [237, 114, 103],
+    },
+    {
+        "class": "panel_button_control",
+        "layer0.texture": "Norber Theme/assets/common/panels_button.png",
+        "layer0.opacity": { "target": 0.4, "speed": 2.0, "interpolation": "smoothstep" },
+        "content_margin": [12, 11]
+    },
+    {
+        "class": "panel_button_control",
+        "attributes": ["hover"],
+        "layer0.opacity": { "target": 0.8, "speed": 2.0, "interpolation": "smoothstep" },
+    },
+    {
+        "class": "status_container",
+        "content_margin": [5, 0, 0, 0]
     },
 
 ]
