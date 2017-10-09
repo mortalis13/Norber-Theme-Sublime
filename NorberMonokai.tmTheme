@@ -33,6 +33,11 @@
         <key>inactiveSelection</key>
         <string>#3d3d3d</string>
         
+        <key>highlight</key>
+        <string>#f8f000</string>
+        <key>highlightForeground</key>
+        <string>#000000</string>
+        
         <key>findHighlight</key>
         <string>#FFE792</string>
         <key>findHighlightForeground</key>
@@ -63,6 +68,9 @@
         <string>underline</string>
         <key>tagsForeground</key>
         <string>#f4f463</string>
+        
+        <key>misspelling</key>
+        <string>#F92672</string>
       </dict>
     </dict>
     <dict>
@@ -136,7 +144,29 @@
       <key>name</key>
       <string>Keyword</string>
       <key>scope</key>
-      <string>keyword</string>
+      <string>keyword - (source.c keyword.operator | source.c++ keyword.operator | source.objc keyword.operator | source.objc++ keyword.operator), keyword.operator.word</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#F92672</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Annotation Punctuation</string>
+      <key>scope</key>
+      <string>punctuation.definition.annotation</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#F92672</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JavaScript Dollar</string>
+      <key>scope</key>
+      <string>variable.other.dollar.only.js</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -167,6 +197,19 @@
         <string>bold italic</string>
         <key>foreground</key>
         <string>#66D9EF</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Entity name</string>
+      <key>scope</key>
+      <string>entity.name - (entity.name.filename | entity.name.section | entity.name.tag | entity.name.label)</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>underline</string>
+        <key>foreground</key>
+        <string>#A6E22E</string>
       </dict>
     </dict>
     <dict>
@@ -212,7 +255,20 @@
       <key>name</key>
       <string>Function argument</string>
       <key>scope</key>
-      <string>variable.parameter</string>
+      <string>variable.parameter - (source.c | source.c++ | source.objc | source.objc++)</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>italic</string>
+        <key>foreground</key>
+        <string>#FD971F</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Language variable</string>
+      <key>scope</key>
+      <string>variable.language</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -249,9 +305,22 @@
     </dict>
     <dict>
       <key>name</key>
+      <string>Function call</string>
+      <key>scope</key>
+      <string>variable.function, variable.annotation</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string></string>
+        <key>foreground</key>
+        <string>#66D9EF</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
       <string>Library function</string>
       <key>scope</key>
-      <string>support.function</string>
+      <string>support.function, support.macro</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
@@ -305,7 +374,7 @@
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#F9267255</string>
+        <string>#F92672</string>
         <key>fontStyle</key>
         <string></string>
         <key>foreground</key>
@@ -336,6 +405,17 @@
         <string>#84d367</string>
       </dict>
     </dict>
+    <dict>
+      <key>name</key>
+      <string>YAML String</string>
+      <key>scope</key>
+      <string>string.unquoted.yaml</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#F8F8F2</string>
+      </dict>
+    </dict>
 
     <dict>
       <key>name</key>
@@ -346,6 +426,160 @@
       <dict>
         <key>foreground</key>
         <string>#75715E</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>markup headings</string>
+      <key>scope</key>
+      <string>markup.heading</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>markup headings</string>
+      <key>scope</key>
+      <string>markup.heading punctuation.definition.heading</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FD971F</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>markup h1</string>
+      <key>scope</key>
+      <string>markup.heading.1 punctuation.definition.heading</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#F92672</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>markup links</string>
+      <key>scope</key>
+      <string>markup.underline.link</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#66D9EF</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>markup bold</string>
+      <key>scope</key>
+      <string>markup.bold</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>markup italic</string>
+      <key>scope</key>
+      <string>markup.italic</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>italic</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>markup bold/italic</string>
+      <key>scope</key>
+      <string>markup.italic markup.bold | markup.bold markup.italic</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold italic</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>markup hr</string>
+      <key>scope</key>
+      <string>punctuation.definition.thematic-break</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#75715E</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>markup blockquote</string>
+      <key>scope</key>
+      <string>markup.quote punctuation.definition.blockquote</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#75715E</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>markup bullets</string>
+      <key>scope</key>
+      <string>markup.list.numbered.bullet</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#AE81FF</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>markup bullets</string>
+      <key>scope</key>
+      <string>markup.list.unnumbered.bullet | (markup.list.numbered punctuation.definition)</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#F8F8F8AA</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>markup code</string>
+      <key>scope</key>
+      <string>markup.raw</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#F8F8F818</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>markup punctuation</string>
+      <key>scope</key>
+      <string>markup.raw punctuation.definition.raw</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#F8F8F8AA</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>markup punctuation</string>
+      <key>scope</key>
+      <string>text &amp; (punctuation.definition.italic | punctuation.definition.bold | punctuation.definition.raw | punctuation.definition.link | punctuation.definition.metadata | punctuation.definition.image | punctuation.separator.table-cell | punctuation.section.table-header | punctuation.definition.constant)</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#F8F8F8AA</string>
       </dict>
     </dict>
     <dict>
@@ -381,7 +615,6 @@
         <string>#E6DB74</string>
       </dict>
     </dict>
-
     <dict>
       <key>scope</key>
       <string>constant.numeric.line-number.find-in-files - match</string>
@@ -393,13 +626,14 @@
     </dict>
     <dict>
       <key>scope</key>
-      <string>entity.name.filename.find-in-files</string>
+      <string>entity.name.filename</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
         <string>#E6DB74</string>
       </dict>
     </dict>
+
     <dict>
       <key>scope</key>
       <string>message.error</string>
@@ -410,6 +644,8 @@
       </dict>
     </dict>
     
+    
+    <!-- _____________________________________ -->
     <!-- Markdown/up Definitions -->
     <dict>
       <key>name</key>
@@ -794,7 +1030,5 @@
     </dict>
     
   </array>
-  <key>uuid</key>
-  <string>27455352-4fad-4f86-910e-4755cb79216c</string>
 </dict>
 </plist>
