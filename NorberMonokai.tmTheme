@@ -22,7 +22,7 @@
         <key>foreground</key>
         <string>#F8F8F2</string>
         <key>invisibles</key>
-        <string>#3B3A32</string>
+        <string>#888888</string>
         <key>lineHighlight</key>
         <string>#3c3b30</string>
         
@@ -313,7 +313,7 @@
         <key>fontStyle</key>
         <string></string>
         <key>foreground</key>
-        <string>#66D9EF</string>
+        <string>#ffffff</string>
       </dict>
     </dict>
     <dict>
@@ -373,12 +373,12 @@
       <string>invalid</string>
       <key>settings</key>
       <dict>
-        <key>background</key>
-        <string>#F92672</string>
+        <!-- <key>background</key> -->
+        <!-- <string>#F92672</string> -->
         <key>fontStyle</key>
-        <string></string>
+        <string>italic</string>
         <key>foreground</key>
-        <string>#F8F8F0</string>
+        <string>#CCCCCC</string>
       </dict>
     </dict>
     <dict>
