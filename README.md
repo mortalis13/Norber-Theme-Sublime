@@ -6,9 +6,9 @@
 A Theme for [Sublime Text](http://sublimetext.com) editor.  
 Source themes: [Numix Theme](https://github.com/nauzethc/sublime-text-numix), [Material Theme](https://github.com/equinusocio/material-theme).
 
-Package Control page: [**Norber Theme**](https://packagecontrol.io/packages/Norber%20Theme)
+Package Control page: [**Norber Theme**](https://packagecontrol.io/packages/Norber%20Theme).
 
-Changes:
+**Changes:**
 - Space betweeb tabs;
 - Different colors for active/inactive tabs;
 - Different hover color for sidebar;
@@ -24,9 +24,9 @@ The Theme with **Monokai** color scheme:
   
   *With Package Control*:
   
-  - **Ctrl + Shift + P**
+  - Ctrl + Shift + P
   - Package Control: Install Package
-  - type *Norber Theme*
+  - type: *Norber Theme*
   
   *Manually*:
   
