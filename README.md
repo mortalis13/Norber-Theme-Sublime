@@ -36,10 +36,10 @@ The Theme with **Monokai** color scheme:
   - Copy the folder into your Sublime Text **Packages** directory.
   - Click on `Preferences -> Settings - User` and add the next line:
   
-  ```
-  "theme": "Norber.sublime-theme",
-  "color_scheme": "Packages/Norber Theme/NorberMonokai.tmTheme",
-  ```
+```
+"theme": "Norber.sublime-theme",
+"color_scheme": "Packages/Norber Theme/NorberMonokai.tmTheme",
+```
 
 # Additional Sublime Settings
 
