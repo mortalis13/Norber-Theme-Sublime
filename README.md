@@ -24,8 +24,8 @@ The Theme with **Monokai** color scheme:
   
   *With Package Control*:
   
-  - Ctrl + Shift + P
-  - Package Control: Install Package
+  - press **Ctrl + Shift + P**
+  - find *Package Control: Install Package*
   - type: *Norber Theme*
   
   *Manually*:
@@ -35,13 +35,21 @@ The Theme with **Monokai** color scheme:
   - Find your **Packages** directory using the menu item `Preferences -> Browse Packages...`
   - Copy the folder into your Sublime Text **Packages** directory.
   - Click on `Preferences -> Settings - User` and add the next line:
-  
+
+
+For **Sublime Text 4**:
+```
+"theme": "Norber.sublime-theme",
+"color_scheme": "NorberMonokai.sublime-color-scheme",
+```
+
+For **Sublime Text 3**:
 ```
 "theme": "Norber.sublime-theme",
 "color_scheme": "Packages/Norber Theme/NorberMonokai.tmTheme",
 ```
 
-# Additional Sublime Settings
+# Additional Sublime Settings [Optional]
 
 ```
 "always_show_minimap_viewport" : true,
@@ -95,4 +103,3 @@ The Theme with **Monokai** color scheme:
 - changed fonts for sidebar items and tab labels to **Verdana** for better view
 - changed sidebar selected row color
 - added custom color scheme based on Monokai
-
