@@ -1,7 +1,7 @@
 
 # Norber Theme
 
-**Version 1.0.5**
+**Version 1.0.6**
 
 A Theme for [Sublime Text](http://sublimetext.com) editor.  
 Source themes: [Numix Theme](https://github.com/nauzethc/sublime-text-numix), [Material Theme](https://github.com/equinusocio/material-theme).
@@ -64,6 +64,11 @@ The Theme with **Monokai** color scheme:
 ```
 
 # Changelog
+
+## 1.0.6
+
+- color scheme for Sublime Text 4
+- hide "FOLDERS" line in the sidebar
 
 ## 1.0.5
 
