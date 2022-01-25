@@ -1,6 +1,5 @@
 {
-    "name": "Monokai",
-    "author": "Sublime HQ Pty Ltd, Wimer Hazenberg",
+    "name": "NorberMonokai",
     "variables":
     {
         "black": "hsl(0, 0%, 0%)",
@@ -29,15 +28,14 @@
     "globals":
     {
         "foreground": "var(white3)",
-        // "background": "#22231d",
-        "background": "#26252b",
+        "background": "#1a191d",
         "caret": "#f8f000",
         "block_caret": "color(var(white2) alpha(0.2))",
         "block_caret_border": "color(var(white2) alpha(0.8))",
         "invisibles": "#888888",
         "line_highlight": "#3c3b30",
         "selection": "#404040",
-        "selection_border": "#6E6E6E",
+        "selection_border": "#3ec8e0",
         "inactive_selection": "#3d3d3d",
         "misspelling": "var(red2)",
         "active_guide": "color(var(orange2) alpha(0.69))",
