@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
   <key>name</key>
-  <string>Monokai</string>
+  <string>NorberMonokai</string>
   <key>settings</key>
   <array>
     <dict>
@@ -388,8 +388,6 @@
       <string>invalid.deprecated</string>
       <key>settings</key>
       <dict>
-        <key>background</key>
-        <string>#AE81FF</string>
         <key>foreground</key>
         <string>#F8F8F0</string>
       </dict>
@@ -645,8 +643,7 @@
     </dict>
     
     
-    <!-- _____________________________________ -->
-    <!-- Markdown/up Definitions -->
+    <!-- === Markdown === -->
     <dict>
       <key>name</key>
       <string>Markdown plain</string>
@@ -795,8 +792,9 @@
         <string>#a481e9</string>
       </dict>
     </dict>
-
-    <!-- GitGutter Definitions -->
+    
+    
+    <!-- === GitGutter === -->
     <dict>
       <key>name</key>
       <string>GitGutter deleted</string>
@@ -853,6 +851,45 @@
       </dict>
     </dict>
     
+    
+    <!-- === Log === -->
+    <dict>
+      <key>name</key>
+      <string>Log Error</string>
+      <key>scope</key>
+      <string>error.log</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#f45454</string>
+      </dict>
+    </dict>
+    
+    <dict>
+      <key>name</key>
+      <string>Log Warning</string>
+      <key>scope</key>
+      <string>warning.log</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ffb879</string>
+      </dict>
+    </dict>
+    
+    <dict>
+      <key>name</key>
+      <string>Log Info</string>
+      <key>scope</key>
+      <string>info.log</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#59e4f6</string>
+      </dict>
+    </dict>
+    
+    <!-- === Log4j === -->
     <dict>
       <key>name</key>
       <string>Log4j Priority</string>
@@ -1026,6 +1063,20 @@
       <dict>
         <key>foreground</key>
         <string>#f3c781</string>
+      </dict>
+    </dict>
+    
+    
+    <!-- === ADB Logcat === -->
+    <dict>
+      <key>name</key>
+      <string>ADB Log Error</string>
+      <key>scope</key>
+      <string>invalid.illegal.adb</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#f9985b</string>
       </dict>
     </dict>
     

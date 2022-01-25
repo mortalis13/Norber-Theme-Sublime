@@ -9,7 +9,7 @@ Source themes: [Numix Theme](https://github.com/nauzethc/sublime-text-numix), [M
 Package Control page: [**Norber Theme**](https://packagecontrol.io/packages/Norber%20Theme).
 
 **Changes:**
-- Space betweeb tabs;
+- Space between tabs;
 - Different colors for active/inactive tabs;
 - Different hover color for sidebar;
 - File icons for sidebar items;
