@@ -1,47 +1,49 @@
-[
-
 // Norber Theme v1.0.5
 
 // ================ Contents ================
   
-    // EMPTY WINDOW BACKGROUND
-    // GRID LAYOUT
-    // MINI MAP
+// EMPTY WINDOW BACKGROUND
+// GRID LAYOUT
+// MINI MAP
 
-    // TABS (REGULAR)
-    // TAB BUTTONS
-    // TAB LABELS
-    // TAB SCROLLING
+// TABS (REGULAR)
+// TAB BUTTONS
+// TAB LABELS
+// TAB SCROLLING
 
-    // FOLD BUTTONS
-    // STANDARD SCROLLBARS
-    // OVERLAY SCROLLBARS
-    // LABELS
-    // TOOLTIP
+// FOLD BUTTONS
+// STANDARD SCROLLBARS
+// OVERLAY SCROLLBARS
+// LABELS
+// TOOLTIP
 
-    // SIDEBAR
-    // SIDEBAR - OPEN FILE ICONS
-    // SIDEBAR - GENERAL FILE ICONS
+// SIDEBAR
+// SIDEBAR - OPEN FILE ICONS
+// SIDEBAR - GENERAL FILE ICONS
 
-    // STANDARD TEXT BUTTONS
-    // TEXT INPUT FIELD
+// STANDARD TEXT BUTTONS
+// TEXT INPUT FIELD
 
-    // PANEL BACKGROUNDS
-    // QUICK PANEL (Goto Anything)
-    // MINI QUICK PANEL (Control Panel)
-    // CODE COMPLETION DROPDOWN
+// PANEL BACKGROUNDS
+// QUICK PANEL (Goto Anything)
+// MINI QUICK PANEL (Control Panel)
+// CODE COMPLETION DROPDOWN
 
-    // BOTTOM PANEL BUTTONS
-    // BOTTOM PANEL ICONS - GROUP 1
-    // BOTTOM PANEL ICONS - GROUP 1 (Find in Files)
-    // BOTTOM PANEL ICONS - GROUP 2
-    // BOTTOM PANEL ICONS - GROUP 3
-    // BOTTOM PANEL ICONS - GROUP 4
+// BOTTOM PANEL BUTTONS
+// BOTTOM PANEL ICONS - GROUP 1
+// BOTTOM PANEL ICONS - GROUP 1 (Find in Files)
+// BOTTOM PANEL ICONS - GROUP 2
+// BOTTOM PANEL ICONS - GROUP 3
+// BOTTOM PANEL ICONS - GROUP 4
 
-    // STATUS BAR
+// STATUS BAR
 
-// ==========================================
-
+{
+  "variables": {
+    
+  },
+    
+  "rules": [
     {
         "class": "title_bar",
         "style": "dark"
@@ -1414,4 +1416,5 @@
         "content_margin": [5, 0, 0, 0]
     },
 
-]
+  ]
+}
