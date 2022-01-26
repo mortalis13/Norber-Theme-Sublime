@@ -1,7 +1,6 @@
-
 # Norber Theme
 
-**Version 1.0.6**
+**Version 1.1**
 
 A Theme for [Sublime Text](http://sublimetext.com) editor.  
 Source themes: [Numix Theme](https://github.com/nauzethc/sublime-text-numix), [Material Theme](https://github.com/equinusocio/material-theme).
@@ -73,10 +72,13 @@ For **Sublime Text 3**:
 
 # Changelog
 
-## 1.0.6
+## 1.1
 
 - color scheme for Sublime Text 4
 - hide "FOLDERS" line in the sidebar
+- dark mode for widgets (console, input fields)
+- dark title bar
+- changed selection border color
 
 ## 1.0.5
 
