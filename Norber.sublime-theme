@@ -42,6 +42,11 @@
 
 // ==========================================
 
+    {
+        "class": "title_bar",
+        "style": "dark"
+    },
+
 
 //
 // EMPTY WINDOW BACKGROUND
@@ -829,7 +834,8 @@
         "layer0.texture": "Norber Theme/assets/common/text-field-dark.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [4, 3, 4, 3],
-        "content_margin": [4, 4, 3, 5]
+        "content_margin": [4, 4, 3, 5],
+        "tint_index": 0,
     },
     {
         "class": "text_line_control",
@@ -1000,7 +1006,6 @@
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
-        // "layer0.tint": [214, 73, 55]
         "layer0.tint": [197, 90, 78]
     },
     
