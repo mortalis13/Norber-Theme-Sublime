@@ -1,4 +1,4 @@
-// Norber Theme v1.1
+// NorberTheme v1.1
 
 // ================ Contents ================
   
@@ -120,25 +120,25 @@
         "class": "tab_control",
 
         // General background
-        "layer0.texture": "Norber Theme/assets/custom/tabs/bg.png",
+        "layer0.texture": "NorberTheme/assets/custom/tabs/bg.png",
         "layer0.inner_margin": [0, 0],
         "layer0.opacity": 1.0,
         "layer0.tint": [90, 90, 90],
 
         // Inactive tabs
-        "layer1.texture": "Norber Theme/assets/custom/tabs/mask.png",
+        "layer1.texture": "NorberTheme/assets/custom/tabs/mask.png",
         "layer1.inner_margin": [4, 4],
         "layer1.tint": [40, 40, 40],
         "layer1.opacity": 1.0,
         "layer1.draw_center": true,
 
         // Selected tab and hover
-        "layer2.texture": "Norber Theme/assets/custom/tabs/mask.png",
+        "layer2.texture": "NorberTheme/assets/custom/tabs/mask.png",
         "layer2.inner_margin": [4, 4],
         "layer2.opacity": 0.0,
 
         // Selected tab line
-        "layer3.texture": "Norber Theme/assets/custom/tabs/active-line.png",
+        "layer3.texture": "NorberTheme/assets/custom/tabs/active-line.png",
         "layer3.inner_margin": [4, 4],
         "layer3.opacity": 0.0,
 
@@ -214,7 +214,7 @@
     // Tab close button
     {
         "class": "tab_close_button",
-        "layer0.texture": "Norber Theme/assets/common/close.png",
+        "layer0.texture": "NorberTheme/assets/common/close.png",
         "layer0.tint": [150, 150, 150],
         "layer0.opacity": 1
     },
@@ -228,7 +228,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-        "layer0.texture": "Norber Theme/assets/common/circle.png",
+        "layer0.texture": "NorberTheme/assets/common/circle.png",
         "layer0.tint": [214, 73, 55],
         "layer0.opacity": 1
     },
@@ -242,7 +242,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
-        "layer0.texture": "Norber Theme/assets/common/close.png",
+        "layer0.texture": "NorberTheme/assets/common/close.png",
         "layer0.opacity": 1,
         "layer0.tint": [214, 73, 55]
     },
@@ -309,7 +309,7 @@
         "layer0.tint": [25, 25, 25],
         "layer0.inner_margin": 0,
 
-        "layer1.texture": "Norber Theme/assets/common/tab-scroll-dropdown_1.png",
+        "layer1.texture": "NorberTheme/assets/common/tab-scroll-dropdown_1.png",
         "layer1.inner_margin": [5, 0, -5, 0],
         "layer1.tint": [255, 255, 255],
         "layer1.opacity": 1.0
@@ -329,7 +329,7 @@
         "layer0.tint": [25, 25, 25],
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
-        "layer1.texture": "Norber Theme/assets/common/tab-scroll-left_1.png",
+        "layer1.texture": "NorberTheme/assets/common/tab-scroll-left_1.png",
         "layer1.inner_margin": [0, 0, 0, 0],
         "layer1.tint": [255, 255, 255],
         "layer1.opacity": 1.0
@@ -347,7 +347,7 @@
         "layer0.tint": [25, 25, 25],
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
-        "layer1.texture": "Norber Theme/assets/common/tab-scroll-right_1.png",
+        "layer1.texture": "NorberTheme/assets/common/tab-scroll-right_1.png",
         "layer1.inner_margin": [0, 0, 0, 0],
         "layer1.tint": [255, 255, 255],
         "layer1.opacity": 1.0
@@ -364,7 +364,7 @@
 //
     {
         "class": "fold_button_control",
-        "layer0.texture": "Norber Theme/assets/common/fold-closed.png",
+        "layer0.texture": "NorberTheme/assets/common/fold-closed.png",
         "layer0.opacity": 1,
         "layer0.tint": [153, 153, 153],
         "layer0.inner_margin": 0,
@@ -373,7 +373,7 @@
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Norber Theme/assets/common/fold-open.png"
+        "layer0.texture": "NorberTheme/assets/common/fold-open.png"
     },
     {
         "class": "fold_button_control",
@@ -657,7 +657,7 @@
     // Sidebar file close
     {
         "class": "close_button",
-        "layer0.texture": "Norber Theme/assets/common/close@2x.png",
+        "layer0.texture": "NorberTheme/assets/common/close@2x.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
         "layer0.tint": [150, 150, 150],
@@ -685,7 +685,7 @@
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "layer0.texture": "Norber Theme/assets/common/close@2x.png",
+        "layer0.texture": "NorberTheme/assets/common/close@2x.png",
         "layer0.opacity": 1,
         "layer0.tint": [214, 73, 55]
     },
@@ -693,21 +693,21 @@
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Norber Theme/assets/common/circle@2x.png",
+        "layer0.texture": "NorberTheme/assets/common/circle@2x.png",
         "layer0.tint": [242, 242, 242]
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Norber Theme/assets/common/close@2x.png",
+        "layer0.texture": "NorberTheme/assets/common/close@2x.png",
         "layer0.opacity": 1,
         "layer0.tint": [242, 242, 242]
     },
     {
         "class": "close_button",
         "parents": [{"class": "tree_row", "attributes": ["hover", "selected"]}],
-        "layer0.texture": "Norber Theme/assets/common/close@2x.png",
+        "layer0.texture": "NorberTheme/assets/common/close@2x.png",
         "layer0.opacity": 1
     },
 
@@ -726,11 +726,11 @@
         "content_margin": [10, 8],
         "layer0.tint": [38, 50, 56],
         "layer0.opacity": 0,
-        "layer1.texture": "Norber Theme/assets/custom/folder.png",
+        "layer1.texture": "NorberTheme/assets/custom/folder.png",
         "layer1.opacity": 1,
-        "layer2.texture": "Norber Theme/assets/common/folder--hover.png",
+        "layer2.texture": "NorberTheme/assets/common/folder--hover.png",
         "layer2.opacity": 0.0,
-        "layer3.texture": "Norber Theme/assets/common/folder_opened--hover.png",
+        "layer3.texture": "NorberTheme/assets/common/folder_opened--hover.png",
         "layer3.opacity": 0.0,
     },
 
@@ -770,7 +770,7 @@
     {
         "class": "disclosure_button_control",
         "content_margin": 8,
-        "layer0.texture": "Norber Theme/assets/common/fold-closed.png",
+        "layer0.texture": "NorberTheme/assets/common/fold-closed.png",
         "layer0.tint": [153, 153, 153]
     },
     {
@@ -787,7 +787,7 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Norber Theme/assets/common/fold-open.png"
+        "layer0.texture": "NorberTheme/assets/common/fold-open.png"
     },
     {
         "class": "disclosure_button_control",
@@ -833,7 +833,7 @@
     // Text input field item
     {
         "class": "text_line_control",
-        "layer0.texture": "Norber Theme/assets/common/text-field-dark.png",
+        "layer0.texture": "NorberTheme/assets/common/text-field-dark.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [4, 3, 4, 3],
         "content_margin": [4, 4, 3, 5],
@@ -842,22 +842,22 @@
     {
         "class": "text_line_control",
         "attributes": ["hover"],
-        // "layer0.texture": "Norber Theme/assets/common/text-field-dark-hover.png",
-        // "layer0.texture": "Norber Theme/assets/common/text-field-dark-hover-1.png",
+        // "layer0.texture": "NorberTheme/assets/common/text-field-dark-hover.png",
+        // "layer0.texture": "NorberTheme/assets/common/text-field-dark-hover-1.png",
     },
 
     // Text input dropdown
     {
         "class": "dropdown_button_control",
         "content_margin": [8, 8],
-        "layer0.texture": "Norber Theme/assets/common/text-field-list.png",
+        "layer0.texture": "NorberTheme/assets/common/text-field-list.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [1, 1]
     },
     {
         "class": "dropdown_button_control",
         "attributes": ["hover"],
-        "layer0.texture": "Norber Theme/assets/common/text-field-list-hover.png"
+        "layer0.texture": "NorberTheme/assets/common/text-field-list-hover.png"
     },
 
 
@@ -1116,7 +1116,7 @@
     // Regex search button
     {
         "class": "icon_regex",
-        "layer0.texture": "Norber Theme/assets/common/regex@2x.png",
+        "layer0.texture": "NorberTheme/assets/common/regex@2x.png",
         "layer0.tint": [193, 193, 193],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1139,7 +1139,7 @@
     // Case sensitive search button
     {
         "class": "icon_case",
-        "layer0.texture": "Norber Theme/assets/common/casesens@2x.png",
+        "layer0.texture": "NorberTheme/assets/common/casesens@2x.png",
         "layer0.tint": [193, 193, 193],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1162,7 +1162,7 @@
     // Match whole word search button
     {
         "class": "icon_whole_word",
-        "layer0.texture": "Norber Theme/assets/common/wholeword@2x.png",
+        "layer0.texture": "NorberTheme/assets/common/wholeword@2x.png",
         "layer0.tint": [193, 193, 193],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1190,7 +1190,7 @@
     // Show search context button
     {
         "class": "icon_context",
-        "layer0.texture": "Norber Theme/assets/common/context@2x.png",
+        "layer0.texture": "NorberTheme/assets/common/context@2x.png",
         "layer0.tint": [193, 193, 193],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1213,7 +1213,7 @@
     // Use search buffer
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "Norber Theme/assets/common/buffer@2x.png",
+        "layer0.texture": "NorberTheme/assets/common/buffer@2x.png",
         "layer0.tint": [193, 193, 193],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1241,7 +1241,7 @@
     // Reverse search direction button (ST2 only)
     {
         "class": "icon_reverse",
-        "layer0.texture": "Norber Theme/assets/common/reverse@2x.png",
+        "layer0.texture": "NorberTheme/assets/common/reverse@2x.png",
         "layer0.tint": [193, 193, 193],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1264,7 +1264,7 @@
     // Search wrap button
     {
         "class": "icon_wrap",
-        "layer0.texture": "Norber Theme/assets/common/wrap@2x.png",
+        "layer0.texture": "NorberTheme/assets/common/wrap@2x.png",
         "layer0.tint": [193, 193, 193],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1287,7 +1287,7 @@
     // Search in selection button
     {
         "class": "icon_in_selection",
-        "layer0.texture": "Norber Theme/assets/common/selection@2x.png",
+        "layer0.texture": "NorberTheme/assets/common/selection@2x.png",
         "layer0.tint": [193, 193, 193],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1315,7 +1315,7 @@
     // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "Norber Theme/assets/common/casesens@2x.png",
+        "layer0.texture": "NorberTheme/assets/common/casesens@2x.png",
         "layer0.tint": [193, 193, 193],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1343,7 +1343,7 @@
     // Highlight results button
     {
         "class": "icon_highlight",
-        "layer0.texture": "Norber Theme/assets/common/highlight@2x.png",
+        "layer0.texture": "NorberTheme/assets/common/highlight@2x.png",
         "layer0.tint": [193, 193, 193],
         "layer0.opacity": 1,
         "content_margin": 8
@@ -1402,7 +1402,7 @@
     },
     {
         "class": "panel_button_control",
-        "layer0.texture": "Norber Theme/assets/common/panels_button.png",
+        "layer0.texture": "NorberTheme/assets/common/panels_button.png",
         "layer0.opacity": { "target": 0.4, "speed": 2.0, "interpolation": "smoothstep" },
         "content_margin": [12, 11]
     },
