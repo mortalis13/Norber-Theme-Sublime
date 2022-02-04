@@ -54,6 +54,7 @@ For **Sublime Text 3**:
 "always_show_minimap_viewport" : true,
 "show_tab_close_buttons": false,
 "enable_tab_scrolling": false,
+"hide_new_tab_button": true,
 
 "line_padding_bottom": 1,
 "line_padding_top": 1,
