@@ -41,7 +41,7 @@
 "variables": {
   "accent_ui": "hsl(7, 66%, 53%)",
   "accent_ui_fg": "hsl(5, 79%, 67%)",
-  "accent_ui_dimmed": "hsl(6, 51%, 54%)",
+  "accent_ui_dimmed": "hsl(6, 51%, 50%)",
   "text_fg": "hsl(0, 0%, 95%)",
   "text_dimmed_fg": "hsl(0, 0%, 74%)",
   "overlay_bg": "hsl(0, 0%, 26%)",
@@ -65,11 +65,13 @@
   
   "sidebar_bg": "hsl(0, 0%, 16%)",
   "sidebar_hover_bg": "hsl(0, 0%, 28%)",
-  "sidebar_folder_bg": "hsl(200, 19%, 18%)",
-  "sidebar_folder_expanded_fg": "hsl(179, 47%, 68%)",
+  "sidebar_folder_bg": "hsl(0, 0%, 50%)",
+  "sidebar_folder_hover_bg": "hsl(179, 47%, 68%)",
+  "sidebar_folder_opened_bg": "var(sidebar_folder_hover_bg)",
+  "sidebar_folder_expanded_fg": "var(sidebar_folder_hover_bg)",
   
   "button_bg": "hsl(0, 0%, 18%)",
-  "button_hover_bg": "hsl(0, 0%, 22%)",
+  "button_hover_bg": "hsl(0, 0%, 10%)",
   "icon_button_fg": "hsl(0, 0%, 80%)",
   "button_pressed_bg": "hsl(0, 0%, 16%)",
   "close_button_bg": "hsl(0, 0%, 59%)",
@@ -638,11 +640,6 @@
   },
   {
     "class": "sidebar_label",
-    "parents": [{"class": "tree_row", "attributes": ["expanded", "hover"]}],
-    "color": "var(sidebar_folder_expanded_fg)",
-  },
-  {
-    "class": "sidebar_label",
     "parents": [{"class": "file_system_entry", "attributes": ["ignored"]}],
     "color": "var(text_fg)",
   },
@@ -714,49 +711,40 @@
   // Fix to hide new folder icons on 3065 build
   {
     "class": "icon_file_type",
-    "layer0.opacity": 1.0,
+    "layer0.opacity": 1,
     "content_margin": [9, 9]
   },
   {
     "class": "icon_folder",
     "content_margin": [10, 8],
-    "layer0.tint": "var(sidebar_folder_bg)",
+    "layer0.tint": "white",
     "layer0.opacity": 0,
-    "layer1.texture": "NorberTheme/assets/folder.png",
+    "layer1.texture": "NorberTheme/assets/folder_closed.png",
+    "layer1.tint": "var(sidebar_folder_bg)",
     "layer1.opacity": 1,
-    "layer2.texture": "NorberTheme/assets/folder--hover.png",
-    "layer2.opacity": 0.0,
-    "layer3.texture": "NorberTheme/assets/folder_opened--hover.png",
-    "layer3.opacity": 0.0,
+    "layer2.texture": "NorberTheme/assets/folder_opened.png",
+    "layer2.tint": "var(sidebar_folder_opened_bg)",
+    "layer2.opacity": 0,
   },
-
   {
     "class": "icon_folder",
-    "content_margin": [10, 8],
-    "parents": [{"class": "tree_row", "attributes":["expanded"]}],
-    "layer1.opacity": 0.0,
-    "layer2.opacity": 0.0,
-    "layer3.opacity": 1.0,
+    "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+    "layer1.tint": "var(sidebar_folder_hover_bg)",
+    "layer1.opacity": 1,
+    "layer2.opacity": 0,
   },
-
   {
     "class": "icon_folder",
-    "content_margin": [10, 8],
-    "parents": [{"class": "tree_row", "attributes":["hover"]}],
-    "layer1.opacity": 0.0,
-    "layer2.opacity": 1.0,
-    "layer3.opacity": 0.0,
+    "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+    "layer1.opacity": 0,
+    "layer2.opacity": 1,
   },
-
   {
     "class": "icon_folder",
-    "content_margin": [10, 8],
-    "parents": [{"class": "tree_row", "attributes":["expanded", "hover"]}],
-    "layer1.opacity": 0.0,
-    "layer2.opacity": 0.0,
-    "layer3.opacity": 1.0,
+    "parents": [{"class": "tree_row", "attributes": ["expanded", "hover"]}],
+    "layer1.opacity": 0,
+    "layer2.opacity": 1,
   },
-
   {
     "class": "icon_folder_loading",
     "content_margin": [0, 0]
@@ -800,7 +788,7 @@
   // Default button state
   {
     "class": "button_control",
-    "content_margin": [4, 8, 4, 8],
+    "content_margin": [4, 9, 4, 10],
     "min_size": [60, 0],
     "layer0.opacity": 1,
     "layer0.tint": "var(button_bg)",
@@ -825,8 +813,8 @@
     "class": "text_line_control",
     "layer0.texture": "NorberTheme/assets/text-field-dark.png",
     "layer0.opacity": 1.0,
-    "layer0.inner_margin": [4, 3, 4, 3],
-    "content_margin": [4, 4, 3, 5],
+    "layer0.inner_margin": [4, 3, 4, 2],
+    "content_margin": [4, 5, 4, 5],
     "tint_index": 0,
   },
   {
@@ -1089,12 +1077,12 @@
   },
 
 // >>> BOTTOM PANEL BUTTONS
-  // Button group middle
+  // Button group
   {
     "class": "icon_button_control",
     "layer0.opacity": 1,
     "layer0.tint": "var(overlay_bg)",
-    "content_margin": 6
+    "content_margin": [8, 8]
   },
   {
     "class": "icon_button_control",
@@ -1231,7 +1219,7 @@
   // Use search buffer
   {
     "class": "icon_use_buffer",
-    "layer0.texture": "NorberTheme/assets/buffer@2x.png",
+    "layer0.texture": "NorberTheme/assets/use_buffer@2x.png",
     "layer0.tint": "var(icon_button_fg)",
     "layer0.opacity": 1,
     "content_margin": 8
@@ -1254,7 +1242,7 @@
   // Use .gitignore
   {
     "class": "icon_use_gitignore",
-    "layer0.texture": "NorberTheme/assets/icon_use_gitignore@2x.png",
+    "layer0.texture": "NorberTheme/assets/use_gitignore@2x.png",
     "layer0.tint": "var(icon_button_fg)",
     "layer0.opacity": 1,
     "content_margin": 8
@@ -1325,7 +1313,7 @@
   // Search in selection button
   {
     "class": "icon_in_selection",
-    "layer0.texture": "NorberTheme/assets/selection@2x.png",
+    "layer0.texture": "NorberTheme/assets/in_selection@2x.png",
     "layer0.tint": "var(icon_button_fg)",
     "layer0.opacity": 1,
     "content_margin": 8
@@ -1535,8 +1523,7 @@
   },
   {
     "class": "kind_label",
-    "parents":
-    [{"class": "quick_panel"}, {"class": "kind_container kind_keyword"}, ],
+    "parents": [{"class": "quick_panel"}, {"class": "kind_container kind_keyword"}, ],
     "color": "color(var(kind_keyword_color) min-contrast(var(overlay_bg) 2.5))"
   },
   {
