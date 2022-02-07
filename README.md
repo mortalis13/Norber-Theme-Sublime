@@ -14,11 +14,6 @@ Package Control page: [**Norber Theme**](https://packagecontrol.io/packages/Norb
 - File icons for sidebar items;
 - Changed document tab is highlighted with the bottom light line.
 
-The Theme with **Monokai** color scheme:
-
-![Screenshot](images/norber_theme_1.png)
-
-
 # Install
   
   *With Package Control*:
