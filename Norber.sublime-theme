@@ -1,7 +1,6 @@
 // NorberTheme v1.3
 
 // ================ Contents ================
-  
 // EMPTY WINDOW BACKGROUND
 // GRID LAYOUT
 // MINI MAP
@@ -31,7 +30,7 @@
 
 // BOTTOM PANEL BUTTONS
 // BOTTOM PANEL ICONS - GROUP 1
-// BOTTOM PANEL ICONS - GROUP 1 (Find in Files)
+// BOTTOM PANEL ICONS - GROUP 1 (EXTENDED: FIND IN FILES)
 // BOTTOM PANEL ICONS - GROUP 2
 // BOTTOM PANEL ICONS - GROUP 3
 // BOTTOM PANEL ICONS - GROUP 4
@@ -115,35 +114,27 @@
     "style": "dark"
   },
 
-//
-// EMPTY WINDOW BACKGROUND
-//
+// >>> EMPTY WINDOW BACKGROUND
   {
     "class": "sheet_container_control",
     "layer0.tint": "hsl(0, 0%, 33%)",
     "layer0.opacity": 1
   },
 
-//
-// GRID LAYOUT
-//
+// >>> GRID LAYOUT
   {
     "class": "grid_layout_control",
     "border_size": 1,
     "border_color": "hsl(0, 0%, 28%)"
   },
 
-//
-// MINI MAP
-//
+// >>> MINI MAP
   {
     "class": "minimap_control",
     "viewport_color": "color(var(accent_ui) a(0.35))"
   },
 
-//
-// TABS (REGULAR)
-//
+// >>> TABS (REGULAR)
   // Tab container
   {
     "class": "tabset_control",
@@ -270,9 +261,7 @@
     "layer3.tint": "var(dirty_tab_accent_bg)",
   },
 
-//
-// TAB BUTTONS
-//
+// >>> TAB BUTTONS
   // Tab close button
   {
     "class": "tab_close_button",
@@ -352,9 +341,7 @@
     "layer0.opacity": 1,
   },
 
-//
-// TAB LABELS
-//
+// >>> TAB LABELS
   {
     "class": "tab_label",
     "fade": true,
@@ -385,9 +372,7 @@
     "font.italic": true
   },
 
-//
-// TAB SCROLLING
-//
+// >>> TAB SCROLLING
   // Tab dropdown
   {
     "class": "show_tabs_dropdown_button",
@@ -460,9 +445,7 @@
     "layer0.opacity": 1,
   },
 
-//
-// FOLD BUTTONS
-//
+// >>> FOLD BUTTONS
   {
     "class": "fold_button_control",
     "layer0.texture": "NorberTheme/assets/common/fold-closed.png",
@@ -482,9 +465,7 @@
     "layer0.tint": "var(accent_ui)",
   },
 
-//
-// STANDARD SCROLLBARS
-//
+// >>> STANDARD SCROLLBARS
   // Standard vertical scroll bar
   {
     "class": "scroll_bar_control",
@@ -514,9 +495,7 @@
     "layer0.tint": "var(scrollbar_handle_hover_bg)",
   },
 
-//
-// OVERLAY SCROLLBARS
-//
+// >>> OVERLAY SCROLLBARS
   // Overlay toggle scroll bar
   {
     "class": "scroll_area_control",
@@ -529,9 +508,7 @@
     "overlay": false
   },
 
-//
-// LABELS
-//
+// >>> LABELS
   // General labels
   {
     "class": "label_control",
@@ -551,9 +528,7 @@
     "shadow_offset": [0, 0]
   },
 
-//
-// TOOLTIP
-//
+// >>> TOOLTIP
   // Tooltip container
   {
     "class": "tool_tip_control",
@@ -569,9 +544,7 @@
     "color": "hsl(0, 0%, 33%)",
   },
 
-//
-// SIDEBAR
-//
+// >>> SIDEBAR
   // Sidebar container
   {
     "class": "sidebar_container",
@@ -679,9 +652,7 @@
     "font.italic": true
   },
 
-//
-// SIDEBAR - OPEN FILE ICONS
-//
+// >>> SIDEBAR - OPEN FILE ICONS
   // Sidebar file close
   {
     "class": "close_button",
@@ -739,9 +710,7 @@
     "layer0.opacity": 1
   },
 
-//
-// SIDEBAR - GENERAL FILE ICONS
-//
+// >>> SIDEBAR - GENERAL FILE ICONS
   // Fix to hide new folder icons on 3065 build
   {
     "class": "icon_file_type",
@@ -827,9 +796,7 @@
     "parents": [{"class": "tree_row", "attributes": ["selected"]}]
   },
 
-//
-// STANDARD TEXT BUTTONS
-//
+// >>> STANDARD TEXT BUTTONS
   // Default button state
   {
     "class": "button_control",
@@ -852,9 +819,7 @@
     "layer0.tint": "var(button_pressed_bg)",
   },
 
-//
-// TEXT INPUT FIELD
-//
+// >>> TEXT INPUT FIELD
   // Text input field item
   {
     "class": "text_line_control",
@@ -883,9 +848,7 @@
     "layer0.texture": "NorberTheme/assets/common/text-field-list-hover.png"
   },
 
-//
-// PANEL BACKGROUNDS
-//
+// >>> PANEL BACKGROUNDS
   // General panel background
   {
     "class": "panel_control",
@@ -914,9 +877,7 @@
     "dark_content": false
   },
 
-//
-// QUICK PANEL (Goto Anything)
-//
+// >>> QUICK PANEL (Goto Anything)
   {
     "class": "quick_panel",
     "row_padding": [8, 8],
@@ -1032,9 +993,7 @@
     "font.size": "var(font_size_sm)",
   },
 
-//
-// MINI QUICK PANEL (Control Panel)
-//
+// >>> MINI QUICK PANEL (Control Panel)
   {
     "class": "mini_quick_panel_row",
     "layer0.tint": "var(quick_panel_bg)",
@@ -1051,9 +1010,7 @@
     "layer0.tint": "var(quick_panel_selected_bg)",
   },
   
-//
-// CODE COMPLETION DROPDOWN
-//
+// >>> CODE COMPLETION DROPDOWN
   {
     "class": "popup_control",
     "content_margin": 1,
@@ -1131,9 +1088,7 @@
     "layer0.opacity": 1
   },
 
-//
-// BOTTOM PANEL BUTTONS
-//
+// >>> BOTTOM PANEL BUTTONS
   // Button group middle
   {
     "class": "icon_button_control",
@@ -1178,9 +1133,7 @@
     "layer0.tint": "var(accent_ui)",
   },
 
-//
-// BOTTOM PANEL ICONS - GROUP 1
-//
+// >>> BOTTOM PANEL ICONS - GROUP 1
   // Regex search button
   {
     "class": "icon_regex",
@@ -1251,9 +1204,7 @@
     "layer0.tint": "var(icon_button_fg)",
   },
 
-//
-// BOTTOM PANEL ICONS - GROUP 1 (EXTENDED: FIND IN FILES)
-//
+// >>> BOTTOM PANEL ICONS - GROUP 1 (EXTENDED: FIND IN FILES)
   // Show search context button
   {
     "class": "icon_context",
@@ -1324,9 +1275,7 @@
     "layer0.tint": "var(icon_button_fg)",
   },
 
-//
-// BOTTOM PANEL ICONS - GROUP 2
-//
+// >>> BOTTOM PANEL ICONS - GROUP 2
   // Reverse search direction button (ST2 only)
   {
     "class": "icon_reverse",
@@ -1397,9 +1346,7 @@
     "layer0.tint": "var(icon_button_fg)",
   },
 
-//
-// BOTTOM PANEL ICONS - GROUP 3
-//
+// >>> BOTTOM PANEL ICONS - GROUP 3
   // Preserve case button
   {
     "class": "icon_preserve_case",
@@ -1424,9 +1371,7 @@
     "layer0.tint": "var(icon_button_fg)",
   },
 
-//
-// BOTTOM PANEL ICONS - GROUP 4
-//
+// >>> BOTTOM PANEL ICONS - GROUP 4
   // Highlight results button
   {
     "class": "icon_highlight",
@@ -1451,9 +1396,7 @@
     "layer0.tint": "var(icon_button_fg)",
   },
 
-//
-// STATUS BAR
-//
+// >>> STATUS BAR
   // Status bar container
   {
     "class": "status_bar",
