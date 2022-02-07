@@ -1827,7 +1827,7 @@
     "font.size": 11,
     "color": "var(text_fg)",
     "border_color": "var(accent_ui)",
-    "content_margin": [6, 2]
+    "content_margin": [4, 0]
   }
 ]
 }
