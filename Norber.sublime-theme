@@ -378,7 +378,7 @@
   // Tab dropdown
   {
     "class": "show_tabs_dropdown_button",
-    "layer0.texture": "NorberTheme/assets/tab-scroll-dropdown@2x.png",
+    "layer0.texture": "NorberTheme/assets/tab_scroll_dropdown@2x.png",
     "layer0.opacity": 0.6,
     "content_margin": [15, 12]
   },
@@ -402,7 +402,7 @@
   // Tab scroll left
   {
     "class": "scroll_tabs_left_button",
-    "layer0.texture": "NorberTheme/assets/tab-scroll-left@2x.png",
+    "layer0.texture": "NorberTheme/assets/tab_scroll_left@2x.png",
     "layer0.opacity": 0.6,
     "content_margin": [15, 12, 15, 12]
   },
@@ -426,7 +426,7 @@
   // Tab scroll right
   {
     "class": "scroll_tabs_right_button",
-    "layer0.texture": "NorberTheme/assets/tab-scroll-right@2x.png",
+    "layer0.texture": "NorberTheme/assets/tab_scroll_right@2x.png",
     "layer0.opacity": 0.6,
     "content_margin": [15, 12, 15, 12]
   },
@@ -450,7 +450,7 @@
 // >>> FOLD BUTTONS
   {
     "class": "fold_button_control",
-    "layer0.texture": "NorberTheme/assets/fold-closed.png",
+    "layer0.texture": "NorberTheme/assets/fold_closed.png",
     "layer0.opacity": 1,
     "layer0.tint": "var(text_dimmed_fg)",
     "layer0.inner_margin": 0,
@@ -459,7 +459,7 @@
   {
     "class": "fold_button_control",
     "attributes": ["expanded"],
-    "layer0.texture": "NorberTheme/assets/fold-open.png"
+    "layer0.texture": "NorberTheme/assets/fold_open.png"
   },
   {
     "class": "fold_button_control",
@@ -754,7 +754,7 @@
   {
     "class": "disclosure_button_control",
     "content_margin": 8,
-    "layer0.texture": "NorberTheme/assets/fold-closed.png",
+    "layer0.texture": "NorberTheme/assets/fold_closed.png",
     "layer0.tint": "hsl(0, 0%, 60%)",
   },
   {
@@ -771,7 +771,7 @@
   {
     "class": "disclosure_button_control",
     "attributes": ["expanded"],
-    "layer0.texture": "NorberTheme/assets/fold-open.png"
+    "layer0.texture": "NorberTheme/assets/fold_open.png"
   },
   {
     "class": "disclosure_button_control",
@@ -811,7 +811,7 @@
   // Text input field item
   {
     "class": "text_line_control",
-    "layer0.texture": "NorberTheme/assets/text-field-dark.png",
+    "layer0.texture": "NorberTheme/assets/text_field_dark.png",
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [4, 3, 4, 2],
     "content_margin": [4, 5, 4, 5],
@@ -826,14 +826,14 @@
   {
     "class": "dropdown_button_control",
     "content_margin": [8, 8],
-    "layer0.texture": "NorberTheme/assets/text-field-list.png",
+    "layer0.texture": "NorberTheme/assets/text_field_list.png",
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [1, 1]
   },
   {
     "class": "dropdown_button_control",
     "attributes": ["hover"],
-    "layer0.texture": "NorberTheme/assets/text-field-list-hover.png"
+    "layer0.texture": "NorberTheme/assets/text_field_list_hover.png"
   },
 
 // >>> PANEL BACKGROUNDS
