@@ -1,6 +1,6 @@
 # Norber Theme
 
-**Version 1.3**
+**Version 1.4**
 
 A Theme for [Sublime Text](http://sublimetext.com) editor.  
 Source themes: [Numix Theme](https://github.com/nauzethc/sublime-text-numix), [Material Theme](https://github.com/equinusocio/material-theme).
@@ -67,6 +67,10 @@ For **Sublime Text 3**:
 ```
 
 # Changelog
+
+## 1.4
+
+- new icons adaptation
 
 ## 1.3
 
