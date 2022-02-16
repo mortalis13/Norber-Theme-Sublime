@@ -141,7 +141,7 @@
   {
     "class": "tabset_control",
     "layer0.tint": "var(tabset_bg)",
-    "layer0.opacity": 1.0,
+    "layer0.opacity": 1,
 
     "content_margin": [0, 0, 0, 0],
     "tab_overlap": 0,
@@ -179,25 +179,25 @@
     // General background
     "layer0.texture": "NorberTheme/assets/tab_background.png",
     "layer0.inner_margin": [0, 0],
-    "layer0.opacity": 1.0,
+    "layer0.opacity": 1,
     "layer0.tint": "var(tabset_bg)",
 
     // Inactive tabs
     "layer1.texture": "NorberTheme/assets/tab_mask.png",
     "layer1.inner_margin": [4, 4],
     "layer1.tint": "var(inactive_tab_bg)",
-    "layer1.opacity": 1.0,
+    "layer1.opacity": 1,
     "layer1.draw_center": true,
 
     // Selected tab and hover
     "layer2.texture": "NorberTheme/assets/tab_mask.png",
     "layer2.inner_margin": [4, 4],
-    "layer2.opacity": 0.0,
+    "layer2.opacity": 0,
 
     // Selected tab line
     "layer3.texture": "NorberTheme/assets/tab_selected_mark.png",
     "layer3.inner_margin": [4, 4],
-    "layer3.opacity": 0.0,
+    "layer3.opacity": 0,
 
     "content_margin": [15, 10],
     "max_margin_trim": 1,
@@ -208,8 +208,8 @@
   {
     "class": "tab_control",
     "attributes": ["hover"],
-    "layer1.opacity": 0.0,
-    "layer2.opacity": 1.0,
+    "layer1.opacity": 0,
+    "layer2.opacity": 1,
     "layer2.tint": "var(tab_hover_bg)",
   },
 
@@ -217,9 +217,9 @@
   {
     "class": "tab_control",
     "attributes": ["selected"],
-    "layer1.opacity": 0.0,
-    "layer2.opacity": 1.0,
-    "layer3.opacity": 1.0,
+    "layer1.opacity": 0,
+    "layer2.opacity": 1,
+    "layer3.opacity": 1,
 
     "layer2.tint": "var(active_tab_bg)",
     "layer3.tint": "var(accent_ui)",
@@ -231,9 +231,9 @@
     "settings": ["!show_tab_close_buttons"],
     "attributes": ["dirty"],
 
-    "layer1.opacity": 0.0,
-    "layer2.opacity": 1.0,
-    "layer3.opacity": 1.0,
+    "layer1.opacity": 0,
+    "layer2.opacity": 1,
+    "layer3.opacity": 1,
 
     "layer2.tint": "var(inactive_tab_bg)",
     "layer3.tint": "var(dirty_tab_accent_bg)",
@@ -243,9 +243,9 @@
     "settings": ["!show_tab_close_buttons"],
     "attributes": ["hover", "dirty"],
 
-    "layer1.opacity": 0.0,
-    "layer2.opacity": 1.0,
-    "layer3.opacity": 1.0,
+    "layer1.opacity": 0,
+    "layer2.opacity": 1,
+    "layer3.opacity": 1,
 
     "layer2.tint": "var(tab_hover_bg)",
     "layer3.tint": "var(dirty_tab_accent_bg)",
@@ -255,9 +255,9 @@
     "settings": ["!show_tab_close_buttons"],
     "attributes": ["selected", "dirty"],
 
-    "layer1.opacity": 0.0,
-    "layer2.opacity": 1.0,
-    "layer3.opacity": 1.0,
+    "layer1.opacity": 0,
+    "layer2.opacity": 1,
+    "layer3.opacity": 1,
 
     "layer2.tint": "var(active_tab_bg)",
     "layer3.tint": "var(dirty_tab_accent_bg)",
@@ -812,7 +812,7 @@
   {
     "class": "text_line_control",
     "layer0.texture": "NorberTheme/assets/text_field_dark.png",
-    "layer0.opacity": 1.0,
+    "layer0.opacity": 1,
     "layer0.inner_margin": [4, 3, 4, 2],
     "content_margin": [4, 5, 4, 5],
     "tint_index": 0,
@@ -827,7 +827,7 @@
     "class": "dropdown_button_control",
     "content_margin": [8, 8],
     "layer0.texture": "NorberTheme/assets/text_field_list.png",
-    "layer0.opacity": 1.0,
+    "layer0.opacity": 1,
     "layer0.inner_margin": [1, 1]
   },
   {
@@ -843,7 +843,7 @@
     "layer0.inner_margin": 2,
     "layer0.opacity": 1,
     "layer0.tint": "var(overlay_bg)",
-    "content_margin": 2
+    "content_margin": 0
   },
   {
     "class": "panel_control",
@@ -854,7 +854,7 @@
   // Console panel background
   {
     "class": "panel_control console_panel",
-    "layer0.tint": "hsl(0, 0%, 50%)",
+    "layer0.tint": "hsl(0, 0%, 60%)",
   },
   // Quick panel background
   {
@@ -870,7 +870,7 @@
     "class": "quick_panel",
     "row_padding": [8, 8],
     "layer0.tint": "var(quick_panel_bg)",
-    "layer0.opacity": 1.0,
+    "layer0.opacity": 1,
     "dark_content": true
   },
   {
@@ -1019,7 +1019,7 @@
   {
     "class": "auto_complete_detail_pane",
     "tint_index": 0,
-    "layer0.opacity": 1.0,
+    "layer0.opacity": 1,
     "tint_modifier": "var(auto_complete_detail_pane_dark_tint)",
     "content_margin": [8, 5, 8, 5]
   },
@@ -1399,7 +1399,7 @@
     "min_size": [50, 0],
     "layer0.tint": "var(accent_ui)",
     "layer0.inner_margin": [2, 0, 0, 0],
-    "layer0.opacity": 1.0,
+    "layer0.opacity": 1,
     "layer0.draw_center": false,
     "content_margin": [15, 0, 15, 0],
   },
@@ -1451,9 +1451,9 @@
     // italic kind_label look visually centered
     "content_margin": [6, 0, 5, 0],
     "layer0.tint": "var(--background)",
-    "layer0.opacity": 0.0,
+    "layer0.opacity": 0,
     "layer1.tint": "white",
-    "layer1.opacity": 0.0,
+    "layer1.opacity": 0,
   },
   {
     "class": "kind_container",
@@ -1725,7 +1725,7 @@
     "class": "kind_container kind_color_light",
     "layer0.opacity": 0.5,
     "layer1.tint": "white",
-    "layer1.opacity": 1.0,
+    "layer1.opacity": 1,
   },
   {
     "class": "kind_label",
@@ -1753,49 +1753,49 @@
     "parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
     "layer0.texture": "NorberTheme/assets/status_untracked.png",
     "layer0.tint": "var(vcs_untracked)",
-    "layer0.opacity": 1.0,
+    "layer0.opacity": 1,
   },
   {
     "class": "vcs_status_badge",
     "parents": [{"class": "file_system_entry", "attributes": ["modified"]}],
     "layer0.texture": "NorberTheme/assets/status_modified.png",
     "layer0.tint": "var(vcs_modified)",
-    "layer0.opacity": 1.0,
+    "layer0.opacity": 1,
   },
   {
     "class": "vcs_status_badge",
     "parents": [{"class": "file_system_entry", "attributes": ["missing"]}],
     "layer0.texture": "NorberTheme/assets/status_modified.png",
     "layer0.tint": "var(vcs_missing)",
-    "layer0.opacity": 1.0,
+    "layer0.opacity": 1,
   },
   {
     "class": "vcs_status_badge",
     "parents": [{"class": "file_system_entry", "attributes": ["staged"]}],
     "layer0.texture": "NorberTheme/assets/status_staged.png",
     "layer0.tint": "var(vcs_staged)",
-    "layer0.opacity": 1.0,
+    "layer0.opacity": 1,
   },
   {
     "class": "vcs_status_badge",
     "parents": [{"class": "file_system_entry", "attributes": ["added"]}],
     "layer0.texture": "NorberTheme/assets/status_staged.png",
     "layer0.tint": "var(vcs_added)",
-    "layer0.opacity": 1.0,
+    "layer0.opacity": 1,
   },
   {
     "class": "vcs_status_badge",
     "parents": [{"class": "file_system_entry", "attributes": ["deleted"]}],
     "layer0.texture": "NorberTheme/assets/status_staged.png",
     "layer0.tint": "var(vcs_deleted)",
-    "layer0.opacity": 1.0,
+    "layer0.opacity": 1,
   },
   {
     "class": "vcs_status_badge",
     "parents": [{"class": "file_system_entry", "attributes": ["unmerged"]}],
     "layer0.texture": "NorberTheme/assets/status_unmerged.png",
     "layer0.tint": "var(vcs_unmerged)",
-    "layer0.opacity": 1.0,
+    "layer0.opacity": 1,
   },
   {
     "class": "vcs_status",
@@ -1805,7 +1805,7 @@
     "class": "vcs_branch_icon",
     "layer0.texture": "NorberTheme/assets/branch.png",
     "layer0.tint": "var(accent_ui)",
-    "layer0.opacity": 1.0,
+    "layer0.opacity": 1,
     "content_margin": [6, 11]
   },
   {
