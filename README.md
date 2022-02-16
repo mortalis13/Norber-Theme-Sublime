@@ -24,9 +24,9 @@ Package Control page: [**Norber Theme**](https://packagecontrol.io/packages/Norb
   *Manually*:
   
   - Download a [**release**](https://github.com/mortalis13/Norber-Theme-Sublime/releases)
-  - Unzip the files and rename the folder to **Norber Theme**
+  - Unzip the files and name the folder as **NorberTheme**
   - Find your **Packages** directory using the menu item `Preferences -> Browse Packages...`
-  - Copy the folder into your Sublime Text **Packages** directory.
+  - Copy the folder **NorberTheme** into the **Packages** directory.
   - Click on `Preferences -> Settings - User` and add the next line:
 
 
