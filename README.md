@@ -1,4 +1,4 @@
-# Norber Theme v1.4
+# Norber Theme v1.5
 
 A Theme for [Sublime Text](http://sublimetext.com) editor.  
 Source themes: [Numix Theme](https://github.com/nauzethc/sublime-text-numix), [Material Theme](https://github.com/equinusocio/material-theme).
@@ -39,7 +39,7 @@ For **Sublime Text 4**:
 For **Sublime Text 3**:
 ```
 "theme": "Norber.sublime-theme",
-"color_scheme": "Packages/Norber Theme/NorberMonokai.tmTheme",
+"color_scheme": "Packages/NorberTheme/NorberMonokai.tmTheme",
 ```
 
 ## Additional Sublime Settings [Optional]
