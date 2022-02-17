@@ -357,22 +357,22 @@
 
         {
             "scope": "diff.deleted",
-            "background": "hsla(338, 50%, 56%, 0.15)",
-            "foreground_adjust": "l(+ 5%)"
+            "background": "hsla(338, 30%, 45%, 0.3)",
+            "foreground_adjust": "l(+ 10%)"
         },
         {
             "scope": "diff.deleted.char",
-            "background": "hsla(338, 65%, 56%, 0.30)",
+            "background": "hsla(338, 30%, 45%, 0.3)",
             "foreground_adjust": "l(+ 10%)"
         },
         {
             "scope": "diff.inserted",
-            "background": "hsla(80, 50%, 53%, 0.15)",
-            "foreground_adjust": "l(+ 5%)"
+            "background": "hsla(160, 50%, 50%, 0.25)",
+            "foreground_adjust": "l(+ 10%)"
         },
         {
             "scope": "diff.inserted.char",
-            "background": "hsla(80, 65%, 53%, 0.30)",
+            "background": "hsla(160, 50%, 50%, 0.25)",
             "foreground_adjust": "l(+ 10%)"
         },
     ]
