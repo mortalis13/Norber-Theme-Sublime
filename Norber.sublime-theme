@@ -563,7 +563,6 @@
     "indent_top_level": false,
     "layer0.tint": "var(sidebar_bg)",
     "layer0.opacity": 1,
-    "dark_content": true
   },
   // Sidebar rows
   {
@@ -862,7 +861,6 @@
     "layer0.tint": "var(overlay_bg)",
     "layer0.opacity": 1,
     "content_margin": [6, 8, 6, 8],
-    "dark_content": false
   },
 
 // >>> QUICK PANEL (Goto Anything)
@@ -871,7 +869,6 @@
     "row_padding": [8, 8],
     "layer0.tint": "var(quick_panel_bg)",
     "layer0.opacity": 1,
-    "dark_content": true
   },
   {
     "class": "quick_panel_row",
