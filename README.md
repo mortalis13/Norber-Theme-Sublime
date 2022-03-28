@@ -7,11 +7,12 @@ Package Control page: [**Norber Theme**](https://packagecontrol.io/packages/Norb
 
 ## Changes
 
-- Space between tabs;
-- Different colors for active/inactive tabs;
-- Different hover color for sidebar;
-- File icons for sidebar items;
-- Changed document tab is highlighted with the bottom light line.
+- Space between tabs
+- Different colors for active/inactive tabs
+- Different hover color for sidebar
+- File icons for sidebar items
+- Changed document tab is highlighted with the bottom light line
+
 
 ## Install
   
