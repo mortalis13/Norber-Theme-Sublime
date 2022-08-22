@@ -375,5 +375,21 @@
             "background": "hsla(160, 50%, 50%, 0.25)",
             "foreground_adjust": "l(+ 10%)"
         },
+        
+        {
+            "name": "Log Debug",
+            "scope": "debug.log",
+            "foreground": "#bbb"
+        },
+        {
+            "name": "Log Warning",
+            "scope": "warning.log",
+            "foreground": "#ffb879"
+        },
+        {
+            "name": "Log Error",
+            "scope": "error.log",
+            "foreground": "#f56d6d"
+        }
     ]
 }

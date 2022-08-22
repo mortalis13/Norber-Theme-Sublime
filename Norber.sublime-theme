@@ -60,8 +60,8 @@
   "tabset_button_light_tint": "color(black a(0.5))",
   
   "scrollbar_bg": "hsl(0, 0%, 20%)",
-  "scrollbar_handle_bg": "hsl(0, 0%, 50%)",
-  "scrollbar_handle_hover_bg": "hsl(0, 0%, 60%)",
+  "scrollbar_handle_bg": "hsla(0, 0%, 90%, 0.2)",
+  "scrollbar_handle_hover_bg": "hsla(0, 0%, 90%, 0.3)",
   
   "sidebar_bg": "hsl(0, 0%, 16%)",
   "sidebar_hover_bg": "hsl(0, 0%, 28%)",
