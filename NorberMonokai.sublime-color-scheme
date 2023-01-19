@@ -2,6 +2,8 @@
     "name": "NorberMonokai",
     "variables":
     {
+        "background": "#1a191d",
+        
         "black": "hsl(0, 0%, 0%)",
         "black2": "hsl(60, 17%, 11%)",
         "black3": "hsl(70, 8%, 15%)",
@@ -28,7 +30,7 @@
     "globals":
     {
         "foreground": "var(white3)",
-        "background": "#1a191d",
+        "background": "var(background)",
         "caret": "#f8f000",
         "block_caret": "color(var(white2) alpha(0.2))",
         "block_caret_border": "color(var(white2) alpha(0.8))",
@@ -182,7 +184,7 @@
         {
             "name": "Function call",
             "scope": "variable.function, variable.annotation",
-            "foreground": "var(blue)"
+            "foreground": "#a8ebff"
         },
         {
             "name": "Annotation",
@@ -354,28 +356,30 @@
             "scope": "message.error",
             "foreground": "#f05a5a"
         },
-
+        
+        // Diff changes
+        // >> Use only char's colors and don't highlight the global changed areas
         {
             "scope": "diff.deleted",
-            "background": "hsla(338, 30%, 45%, 0.3)",
-            "foreground_adjust": "l(+ 10%)"
-        },
-        {
-            "scope": "diff.deleted.char",
-            "background": "hsla(338, 30%, 45%, 0.3)",
-            "foreground_adjust": "l(+ 10%)"
+            "background": "hsla(338, 30%, 50%, 0)",
         },
         {
             "scope": "diff.inserted",
-            "background": "hsla(160, 50%, 50%, 0.25)",
+            "background": "hsla(160, 50%, 30%, 0)",
+        },
+        
+        {
+            "scope": "diff.deleted.char",
+            "background": "hsla(340, 30%, 38%, 0.3)",
             "foreground_adjust": "l(+ 10%)"
         },
         {
             "scope": "diff.inserted.char",
-            "background": "hsla(160, 50%, 50%, 0.25)",
+            "background": "hsla(160, 50%, 45%, 0.3)",
             "foreground_adjust": "l(+ 10%)"
         },
         
+        // Custom log syntax
         {
             "name": "Log Debug",
             "scope": "debug.log",
