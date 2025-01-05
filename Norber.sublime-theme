@@ -1072,7 +1072,15 @@
     "layer0.tint": "var(accent_ui_dimmed)",
     "layer0.opacity": 1
   },
-
+  
+// >>> POPUP
+  {
+    "class": "popup_control html_popup",
+    "content_margin": 0,
+    "layer0.tint": "hsl(0, 0%, 20%)",
+    "layer0.opacity": 0
+  },
+  
 // >>> BOTTOM PANEL BUTTONS
   // Button group
   {
